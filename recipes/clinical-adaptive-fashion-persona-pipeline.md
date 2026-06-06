@@ -16,24 +16,24 @@ Combines CDC data, local healthcare CSV records, Hugging Face clinical notes, an
 
 ## Node Classification
 
-| Node Name | Node Type | Classification |
-|---|---|---|
-| When clicking 'Execute workflow' | `n8n-nodes-base.manualTrigger` | conductor |
-| Fetch data.cdc.gov source | `n8n-nodes-base.httpRequest` | ingest |
-| Code: Parse CDC | `n8n-nodes-base.code` | gigo |
-| Code: Parse Kaggle | `n8n-nodes-base.code` | gigo |
-| Fetch datasets-server.huggingface.co source | `n8n-nodes-base.httpRequest` | ingest |
-| Code: Parse HuggingFace | `n8n-nodes-base.code` | gigo |
-| Fetch sciencedaily.com source | `n8n-nodes-base.httpRequest` | ingest |
-| Code: Parse RSS | `n8n-nodes-base.code` | gigo |
-| Code: Merge + Quality Check | `n8n-nodes-base.code` | gigo |
-| Code: Summary Report | `n8n-nodes-base.code` | gigo |
-| Read/Write Files from Disk | `n8n-nodes-base.readWriteFile` | ingest |
-| Extract from File | `n8n-nodes-base.extractFromFile` | ingest |
-| Merge | `n8n-nodes-base.merge` | conductor |
-| Code: Generate HTML Report | `n8n-nodes-base.code` | gigo |
-| Read/Write Files from Disk1 | `n8n-nodes-base.readWriteFile` | tool |
-| Sticky Note | `n8n-nodes-base.stickyNote` | conductor |
+| Node Name | Node Type | Classification | Snickerdoodle |
+|---|---|---|---|
+| When clicking 'Execute workflow' | `n8n-nodes-base.manualTrigger` | conductor | Existing conductor instructions: `recipes/clinical-adaptive-fashion-persona-pipeline.md`; run log should be JSON in `logs/clinical-adaptive-fashion-persona-pipeline-[DATE].json`. |
+| Fetch data.cdc.gov source | `n8n-nodes-base.httpRequest` | ingest | Existing ingest script: `scripts/ingest/clinical-adaptive-fashion-persona-pipeline__fetch-data-cdc-gov-source.py`; output should be JSON in `data/raw/clinical-adaptive-fashion-persona-pipeline/`. |
+| Code: Parse CDC | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-parse-cdc.py`; output should be verified JSON in `data/verified/clinical-adaptive-fashion-persona-pipeline/`. |
+| Code: Parse Kaggle | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-parse-kaggle.py`; output should be verified JSON in `data/verified/clinical-adaptive-fashion-persona-pipeline/`. |
+| Fetch datasets-server.huggingface.co source | `n8n-nodes-base.httpRequest` | ingest | Existing ingest script: `scripts/ingest/clinical-adaptive-fashion-persona-pipeline__fetch-datasets-server-huggingface-co-source.py`; output should be JSON in `data/raw/clinical-adaptive-fashion-persona-pipeline/`. |
+| Code: Parse HuggingFace | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-parse-huggingface.py`; output should be verified JSON in `data/verified/clinical-adaptive-fashion-persona-pipeline/`. |
+| Fetch sciencedaily.com source | `n8n-nodes-base.httpRequest` | ingest | Existing ingest script: `scripts/ingest/clinical-adaptive-fashion-persona-pipeline__fetch-sciencedaily-com-source.py`; output should be JSON in `data/raw/clinical-adaptive-fashion-persona-pipeline/`. |
+| Code: Parse RSS | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-parse-rss.py`; output should be verified JSON in `data/verified/clinical-adaptive-fashion-persona-pipeline/`. |
+| Code: Merge + Quality Check | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-merge-quality-check.py`; output should be verified JSON with record counts, rejects, duplicates, and missing-field checks. |
+| Code: Summary Report | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-summary-report.py`; output should be a JSON report contract plus markdown report content for `reports/generated/`. |
+| Read/Write Files from Disk | `n8n-nodes-base.readWriteFile` | ingest | Existing ingest script: `scripts/ingest/clinical-adaptive-fashion-persona-pipeline__read-write-files-from-disk.py`; machine-specific path must be replaced with a repo-local input or marked `[TO DO]`. |
+| Extract from File | `n8n-nodes-base.extractFromFile` | ingest | Existing ingest script: `scripts/ingest/clinical-adaptive-fashion-persona-pipeline__extract-from-file.py`; output should be parsed JSON in `data/raw/clinical-adaptive-fashion-persona-pipeline/`. |
+| Merge | `n8n-nodes-base.merge` | conductor | Needs conductor markdown instruction in this recipe for source order, dependency handling, and failure behavior; merged output should remain JSON, not an untracked live export. |
+| Code: Generate HTML Report | `n8n-nodes-base.code` | gigo | Existing GIGO script: `scripts/gigo/clinical-adaptive-fashion-persona-pipeline__code-generate-html-report.py`; output should be markdown/HTML report content routed through `reports/generated/` after human review. |
+| Read/Write Files from Disk1 | `n8n-nodes-base.readWriteFile` | tool | Existing tool script: `scripts/tools/clinical-adaptive-fashion-persona-pipeline__read-write-files-from-disk1.py`; output is a local handoff JSON in `logs/`, with live write/export disabled until approved. |
+| Sticky Note | `n8n-nodes-base.stickyNote` | conductor | Convert note text into conductor markdown in this recipe or `reports/templates/clinical-adaptive-fashion-persona-pipeline.md`; no executable script required. |
 
 ## Inputs
 
