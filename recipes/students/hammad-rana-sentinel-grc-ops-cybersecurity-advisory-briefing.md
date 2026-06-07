@@ -27,6 +27,14 @@ The project aligns with a WHOOP Governance, Risk, and Compliance Analyst role. T
 | CISA Cybersecurity Advisories RSS | Public RSS | 30 records in A3; 10 live records analyzed in A4 demo | Current vulnerability/advisory context. | Verify CISA URL, dates, vendors, severity, CVE/KEV fields. |
 | Groq llama-3.1-8b-instant | AI service | 10/10 success at production demo batch; rate limit around larger batches | Maps advisory to controls, severity, recommended action. | Approve API key, prompt, control catalog, retry behavior. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Cybersecurity RSS feeds such as Krebs and CISA | Threat type, brand affected, date, severity if available, source URL. |
+| Threat intelligence datasets from Kaggle | Threat type, affected sector or brand, date, severity, source/provenance. |
+| Brand mention datasets | Brand affected, mention context, date, source URL, severity or risk label if available. |
+
 ## Data Schema And Quality Checks
 
 A3 normalizes three source types to a shared GRC schema and reports 467 normalized records, 465 clean records, 2 rejects, and 99.6% pass rate. A4 narrows scope to live CISA advisories and produces control_mapping, severity_assessment, and recommended_action per record. Demo scale notes show 10 records at full success; larger batches hit Groq free-tier/rate-limit constraints. Human review must check that AI control mappings are plausible, not authoritative compliance determinations.

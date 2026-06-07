@@ -27,6 +27,14 @@ The A2 career target is founding-stage AI infrastructure and distributed systems
 | GitHub Search API | Public API | 60 records | Open-source AI-agent repository adoption and developer attention signals. | Verify GitHub rate limits, repository URL, owner/name, updated date, language/tags, engagement score. |
 | OpenAI API in A4 | AI service | 12 stable AI-scored records in final batch | Classifies trend cluster, priority, confidence, insight, and action. | Human must approve model, cost, batch size, prompt, and fallback behavior before live runs. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Kaggle social media archive datasets | Post content, engagement counts, platform, timestamps, author metadata if public and allowed. |
+| Platform public documentation | Platform, endpoint or feature name, data field definitions, limits, policy notes, update date. |
+| RSS feeds from social analytics blogs | Headline, source, topic, date, platform mentioned, source URL. |
+
 ## Data Schema And Quality Checks
 
 A3 required fields are `record_id`, `source_name`, `title`, `url`, and `posted_at`; all 180 data records were reported complete. Shared schema also includes `source_type`, `text`, `author`, `engagement_score`, `comments_count`, `tags`, `content_hash`, and `quality_status`. A4 adds `trend_cluster`, `madison_priority`, `madison_score`, `confidence`, `ai_decision`, `ai_insight`, `recommended_action`, `ai_status`, and `analyzed_at`. Quality checks include deduplication, required-field validation, content hash construction, AI response parsing, fallback scoring when AI output is malformed, and scale testing. The documented breaking point is a 50-record AI batch timing out at 60 seconds; the stable final AI batch is 12 records.

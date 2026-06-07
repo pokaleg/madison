@@ -30,6 +30,14 @@ The A2 evidence targets a Boston Sr. AI Engineer role at Validity, emphasizing p
 | Hugging Face SetFit/20 Newsgroups rows | Public dataset API | 44 records in A3 demo | Supplemental text classification corpus. | Check dataset terms and relevance to brand monitoring. |
 | GPT/Claude model in A4 | AI service | Enriched 271 records; scale tests up to 50 batch | Sentiment, entities, relevance, topic tags, report generation. | Approve model, cost, prompt, and email delivery. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Multiple news RSS feeds | Article title, source, date, topic category, source URL, reliability score if available. |
+| NewsAPI | Article title, source, date, topic category, source URL, reliability score if available. |
+| Public benchmark datasets from HuggingFace | Record ID, text/title, source dataset, topic category, reliability or label metadata if available. |
+
 ## Data Schema And Quality Checks
 
 A3 documentation reports 274 raw records, 3 duplicates removed, 0 invalid, 271 clean records, 98.9% quality, and a 9-column schema. The pantry A3 CSV currently has 134 rows, so production must reconcile the submitted CSV with the documented 271-row demo/A4 enriched output. A4 enriched_data.csv uses 21 columns including AI sentiment, confidence, brands, products, people, competitors, relevance, topic tags, off-brand flag, summary, latency, and status. Scale tests show batches 1, 5, 10, 25, and 50 with 90-100% success and estimated costs.

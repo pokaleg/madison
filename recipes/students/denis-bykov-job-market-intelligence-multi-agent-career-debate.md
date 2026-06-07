@@ -27,6 +27,14 @@ The career target is hands-on data center infrastructure as a foundation for clo
 | NewsAPI data-center hiring query | News API | 16 articles in demo; credential embedded in original n8n URL | Surfaces real-time AWS/data-center hiring signals. | Credential must be moved to env var; verify article relevance and source quality. |
 | Claude / Anthropic API in A4 | AI service | 3 calls per report | Hiring Manager, Advocate, and Synthesis Judge debate candidate readiness. | Approve model, prompt roles, cost, and fairness/risk boundaries. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Job posting datasets from Kaggle | Job title, company, skills listed, date posted, salary range if available. |
+| BLS labor statistics | Occupation code, occupation title, employment count, wage range, geography, date range. |
+| RSS feeds from company career blogs | Job title, company, hiring signal, date posted or published, source URL. |
+
 ## Data Schema And Quality Checks
 
 A3 job-market records use `title`, `source`, `date`, `source_type`, `description`, and `url`. The workflow merges BLS, NewsAPI, and job records, standardizes dates, removes duplicates, and exports a CSV. A4 reports show debate-report cost around $0.063 per report and identify NewsAPI free tier as the first bottleneck. Quality checks should include role-title relevance, source freshness, date standardization, duplicate removal, article relevance to data-center hiring, and explicit separation of evidence from career advice.

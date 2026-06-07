@@ -28,6 +28,14 @@ The project is positioned for health-fashion brands such as Tommy Hilfiger Adapt
 | ScienceDaily breast cancer RSS | Public RSS | 12 records in final A3 report | Current breast-cancer/recovery context. | Verify article relevance and date. |
 | Claude API in A4 | AI service | Up to 15 requests before rate-limit issues | Generate persona cards and strategy report. | Approve model, prompt, category rules, and fallback persona behavior. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Public clinical datasets from Kaggle | Patient demographics when public/de-identified, condition categories, treatment types, dates. |
+| Medical terminology datasets | Condition terms, synonyms, category mappings, source vocabulary, version/date. |
+| CMS open data | Procedure or coverage category, public utilization signal, geography if available, date range. |
+
 ## Data Schema And Quality Checks
 
 Unified schema has 10 fields: record_id, source, category, age, gender, condition, treatment_stage, fashion_signal, date_collected, and notes. Categories are post-mastectomy, alopecia, diabetes, adaptive-mobility, and cancer-recovery. The documented quality rate is 100%, with a threshold of 80%+, no duplicates removed in A3, and ISO-style dates. Critical quality principle: unknown demographic fields should remain null rather than invented. A4 scale tests show 1-15 persona requests succeed, 25 requests caused 9 failures, and 50 caused 35 failures due to Claude rate limits; fallback personas were generated for failures.

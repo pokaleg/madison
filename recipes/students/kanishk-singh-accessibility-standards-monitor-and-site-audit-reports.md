@@ -28,6 +28,14 @@ The A2 evidence frames Kanishk around product-quality engineering, full-stack sy
 | A11y Project RSS | Public RSS | [TO DO] source count | Community accessibility education and patterns. | Verify feed and article relevance. |
 | Sample domain audit targets | HTML/site report inputs | A4 gallery includes many domains | Generates site-level reports from accessibility knowledge. | Human must approve target list and testing ethics before live audits. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| WCAG guideline datasets | Rule ID, description, success criteria, conformance level: A, AA, or AAA. |
+| Public accessibility audit reports | Rule ID, issue description, affected pattern, conformance level, audit date, source. |
+| Web standards documentation | Standard name, rule or section ID, description, conformance level, update date. |
+
 ## Data Schema And Quality Checks
 
 A3 CSV has 184 rows with rule/source/type metadata, WCAG criterion, conformance level, description, help URL, and tags. The workflow includes a quality gate requiring at least 50 records. Quality checks should include deduplication, required field validation, rule-to-WCAG mapping, minimum record count, and separation between standards evidence and site-specific findings. A4 reports need source citations for each flagged issue and must not imply legal compliance certification.

@@ -28,6 +28,14 @@ The A2 career target is Amazon Software Development Engineer, with backend Java,
 | Groq llama-3.1-8b-instant | AI service | A4 analysis at 10-100 article test sizes | Sentiment, urgency, sector classification, routing. | Approve API key, prompt, free-tier limits, sector labels, and email destinations. |
 | Gmail / sector email outputs | External delivery | Healthcare, Tech, Retail, Finance, Legal, General | Live email requires human approval and non-sensitive recipient configuration. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Industry report RSS feeds | Company name, industry, headline, date, source, key figures mentioned. |
+| NewsAPI for market coverage | Company name, industry, headline, date, source, source URL, key figures mentioned. |
+| Public company datasets from Data.gov or SEC | Company identifier, industry, filing/date, source, revenue or other key figures if available. |
+
 ## Data Schema And Quality Checks
 
 A3 reports 66 total clean records and 100% quality. The A3 Data CSV in pantry could not be parsed by the local CSV reader, so a production run must verify the exported format. A4 claims 6000+ articles collected, 60% positive sentiment, 34s per 10-article run, six sector emails, and error handling for rate limits/timeouts. Human verification must distinguish demo/scale claims from the currently available parseable dataset.

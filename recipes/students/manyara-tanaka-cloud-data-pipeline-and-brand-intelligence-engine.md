@@ -28,6 +28,14 @@ The A2 evidence points toward data engineering / AI engineering work involving A
 | BigQuery / marketing data in A4 | Structured analytics data | [TO DO] exact source table not in pantry | Input to Brand Intelligence Analysis Engine. | Human must identify dataset/table and privacy boundary before production. |
 | OpenAI GPT-4o-mini | AI service | A4 intelligence layer | Sentiment, archetype, anomaly, content recommendation, trend forecast. | Approve model, cost, prompt, retry/dead-letter behavior. |
 
+## Recommended Sources To Add
+
+| Recommended Sources | What Snickerdoodle Should Save |
+| --- | --- |
+| Cloud certification exam datasets | Certification name, skill tags, exam domain, platform, source date. |
+| AWS/Azure public documentation | Service name, platform, skill tags, documented requirement, publication/update date. |
+| Job postings filtered for cloud roles | Job title, company, job requirements, platform, dates, salary range if available. |
+
 ## Data Schema And Quality Checks
 
 A3 schema includes `title`, `platform`, `skill_tags`, `summary`, `source`, `source_url`, `date`, and `record_quality`. Documentation reports 150 complete records, 0 partial records, 0 duplicates, and standardized YYYY-MM-DD dates. A4 quality shifts from data completeness to insight reliability: it needs sentiment confidence, archetype rationale, anomaly thresholds, draft-post review, and trend forecast confidence intervals. The A4 PDF claims avg 23ms latency for brand-analysis prompts and full error workflow with retry, dead-letter queue, and alerts.
