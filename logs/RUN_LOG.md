@@ -274,3 +274,57 @@ workflow changes.
 - **Outputs:** Ten student recipes plus `logs/student-recipes-summary.json`.
 - **Result:** Student recipes created with student name, project purpose, long-term goal, evidence inventory, data sources, verification, quality checks, step-by-step AI/human workflow, reports/logs, phase gates, stop conditions, and `[TO DO]` production gaps.
 - **Open issues:** Several original submissions contain local machine paths, zipped artifacts, row-count discrepancies, or embedded credentials in source workflows; student recipes flag these as `[TO DO]` before production.
+
+## 2026-06-13 -- Port two suites from MD/prompts (caze, paper)
+
+- **Skill:** Triage of `books/MD/prompts/` (33 files) + port of the two net-new, on-mission suites into Madison.
+- **Inputs:** `books/MD/prompts/*` (drafts, many parallel to existing Madison suites); `prompts/_shared/` knowledge files; `scripts/build-prompts.mjs`.
+- **Commands:** Wrote triage memo (`docs/md-prompts-triage.md`); built `prompts/caze/` (`/caze`, `/mycaze`, `/diligence`) folding in cherry-picked `interview-case-study` + `venture-diligence`; built `prompts/paper/` (`/p1`–`/p5` + `/review`) from `ai-project-to-scientific-paper` + `scientific-paper-review`; compiled both with `build-prompts.mjs --target skill`; ran conformance.
+- **Outputs:** `prompts/caze/{caze.md,manifest.yml}` + `caze.skill` (4 files); `prompts/paper/{paper.md,manifest.yml}` + `paper.skill` (3 files); `docs/md-prompts-triage.md`; DOMAIN.md entries for both.
+- **Result:** Both suites conform (machine half of P4) and bundle the right `_shared` files (caze: competitive-method/jargon/cleanup; paper: jargon/cleanup). Madison-styled: slash commands, provenance gate, default-to-markdown.
+- **Open issues:** Skills authored, not installed — install via Cowork to make commands invokable. `tic-toc` (book-architecture tool) and the rest of MD/prompts left in place per triage (already-covered or out-of-scope); do not re-import the brand/identity/pitch/figure drafts (they fork the reconciled Nina/BRANDY/Madison-Pitch/CAJAL source).
+
+## 2026-06-13 -- Write Exercise 8 (Brand-Aligned Digital Presence)
+
+- **Skill:** House-style exercise authoring backing Assignment 8 (live website, accessibility check, LinkedIn header, AI brand visuals, ATS + visual resumes).
+- **Inputs:** A8 spec; existing tools — `nina` (`/n7`–`/n11`), `brand/resume.json` (Ex 1), `templates/wrap-your-tool` scaffold, `scripts/to-markdown.mjs` + `conformance.mjs`; Exercise 7 as the structural template.
+- **Commands:** Wrote `docs/exercises/exercise-08-digital-presence.md` (Moves 0–7 + command→deliverable map + grading 80+20 + what-can-go-wrong + before-you-submit); indexed in HOW-TO-CHECK.md (row 8) and DOMAIN.md.
+- **Outputs:** `docs/exercises/exercise-08-digital-presence.md`; updated `docs/exercises/HOW-TO-CHECK.md`, `DOMAIN.md`.
+- **Result:** A8 mapped entirely onto existing tools — no new script required. Through-line landed: `brand/resume.json` (Ex 1) is the single verified source for both resumes, gated on its open `_human_gate`/`[CONFLICT]`/`issues` (can't ship a resume on conflicting credentials). Honest caveat stated: Madison writes specs/prompts/content; the human generates images and deploys.
+- **Open issues:** Two optional helpers would deepen A8 if wanted — `scripts/build-resume.mjs` (render `resume.json` → ATS PDF+Word + visual PDF, refusing while the gate is open) and `scripts/contrast-check.mjs` (compute WCAG ratios from `brand.yml` hexes = the machine half of the accessibility deliverable). Not built; exercise works without them.
+
+## 2026-06-13 -- Port Ogilvy copywriting suite (prompts/ogilvy)
+
+- **Skill:** Port of the Direct-Response Copywriting & Platform Content Coach (Ogilvy) from `books/MD/prompts/` into Madison.
+- **Inputs:** `books/MD/prompts/direct-response-copywriting-and-platform-content-coach.md` (2,543 lines); `_shared/jargon-audit.md` + `cleanup-standard.md`.
+- **Commands:** Prepended a Madison framing header (default-to-markdown, provenance gate, Nina-overlap note = option a); inline-flagged the FinCARE F1 figure as `[VERIFY — human]`; wrote `manifest.yml`; built `--target skill`; ran conformance; wrote `PROVENANCE-CHECK.md` (9-claim gate for /medhavy + /causal company stats).
+- **Outputs:** `prompts/ogilvy/{ogilvy.md, manifest.yml, PROVENANCE-CHECK.md}` + `ogilvy.skill` (3 files: SKILL.md + jargon + cleanup); DOMAIN.md entry.
+- **Result:** Conforms (machine half of P4). 30+ commands incl. the platform-copy engine and the `/medhavy` (Medhavy LLC) + `/causal` (Living Models) script builders. `PROVENANCE-CHECK.md` is NOT bundled (not in manifest knowledge_files) — it's the working checklist. Refinement overlap with Nina (`/tagline` `/benefit` `/emotion` `/edit`) kept intentionally (option a: copy-craft lens vs. brand-strategy lens).
+- **Open issues:** Nine embedded company claims gated for Bear's verification before any script asserts them as fact (see `PROVENANCE-CHECK.md`): FinCARE F1 0.163→0.759, J.C. Penney framing, 45-min KAT interview, named methods (NOTEARS/DML/CPDAG/EVI), Living Models URLs/tagline, Medhavy 2–3wk deployment, plugins CRITIQ/Popper/Nina, feature set, attribution line. Skill authored, not installed — install via Cowork.
+
+## 2026-06-13 -- Write Exercise 9 (Brand Storytelling & Content Strategy)
+
+- **Skill:** House-style exercise backing Assignment 9 (three 100-word story arcs, 300-word expanded story, 500-word published article + graphic).
+- **Inputs:** A9 spec; tools — `ogilvy` (just ported: `/hook`/`/emotion`/`/edit`/`/byline`/`/linkedin`/`/cta`/`/credibility`), `nina` (`/n6`/`/n2`/`/n3`), `brand/resume.json` (truth source), `cajal` (graphic); Exercises 7 & 8 as templates.
+- **Commands:** Wrote `docs/exercises/exercise-09-brand-storytelling.md` (Moves 0–7 + command→deliverable map + 100-pt grading + what-can-go-wrong + before-you-submit); indexed in HOW-TO-CHECK.md (row 9) and DOMAIN.md.
+- **Outputs:** `docs/exercises/exercise-09-brand-storytelling.md`; updated `docs/exercises/HOW-TO-CHECK.md`, `DOMAIN.md`.
+- **Result:** A9 mapped onto existing tools — Ogilvy is the primary engine (first exercise to use the new suite), Nina supplies the anti-generic voice/archetype/audience gate, `resume.json` is the truth source. Spine = the **truth audit** (every story traces to a real attested moment) + the voice test (read aloud vs. Nina's IS-NOT list) — storytelling reframed as the highest-stakes place for the fluency trap and embellishment.
+- **Open issues:** None blocking. Exercises now number 11 (01,01a,02,03,05,05a,05b,06a,07,08,09). Optional future: a `deck-trace`/story-trace machine checker remains unbuilt (human gate only, by design).
+
+## 2026-06-13 -- Write Exercise 10 (Substack as a Brand Platform)
+
+- **Skill:** House-style exercise backing Assignment 10 (Substack publication + brand-consistency audit + 600-800w thought-leadership article + promo + 300w reflection).
+- **Inputs:** A10 spec; tools — `ogilvy` (publication copy + article engine), `brandy` (consistency audit matrix), `nina` (`/n8`/`/n11`/`/n6`), A9 story arcs, `brand/resume.json` (truth source), `cajal` (visual); Exercises 7-9 as templates.
+- **Commands:** Wrote `docs/exercises/exercise-10-substack-platform.md` (Moves 0-7 + command->deliverable map + 80+20 grading + what-can-go-wrong + before-you-submit); indexed in HOW-TO-CHECK.md (row 10) and DOMAIN.md.
+- **Outputs:** `docs/exercises/exercise-10-substack-platform.md`; updated HOW-TO-CHECK.md, DOMAIN.md.
+- **Result:** A10 mapped onto existing tools. Standout fit: **BRANDY** is the purpose-built instrument for the brand-consistency audit (observe 3 headers -> label evidence -> cohesion matrix = the trace audit at platform level). Article spine = the **usefulness test** + **integration test** (anti product-announcement), reframing the rubric's "reads like an assignment" bottom tier as the fluency trap. Reflection = human-only (strategy over mechanics). Provenance gate on tool stats.
+- **Open issues:** None blocking. Exercises now 12 (01,01a,02,03,05,05a,05b,06a,07,08,09,10). The skep plugin's Substack-craft skills (about/subject/preview/welcome) are Bear's personal tools (skepticism.ai-branded) — deliberately NOT referenced in the student exercise to keep it on course-distributable prompts/ tools.
+
+## 2026-06-13 -- Write Final capstone exercise (Brand Portfolio Presentation)
+
+- **Skill:** House-style capstone exercise backing the Final Exam (complete brand-system deck, 200 pts + 10 bonus), parallel to the midterm (6A).
+- **Inputs:** Final Exam spec; all A1-A10 artifacts as source; tools — `slides-deck` + `scripts/build-deck.mjs` (render), `madison-pitch` (timing), `brandy` (consistency), `nina` (`/n11`/`/positioning`/`/ready`), `ogilvy` (`/tagline`/storytelling); Exercises 6A & 7-10 as templates.
+- **Commands:** Wrote `docs/exercises/exercise-final-brand-portfolio.md` (assembly map: 6 sections -> source exercises -> artifacts -> tools; Moves 0-8; 200+10 grading mapped to the 6 rubric criteria + bonus; what-can-go-wrong; before-you-present); indexed in HOW-TO-CHECK.md (Final row) and DOMAIN.md.
+- **Outputs:** `docs/exercises/exercise-final-brand-portfolio.md`; updated HOW-TO-CHECK.md, DOMAIN.md.
+- **Result:** The capstone closes the arc. Built like the midterm (slides-deck -> build-deck.mjs), but the trace audit now runs system-wide across A1-A10 ("would it hold up in front of a client?"). Three gates: system-level trace audit, BRANDY consistency (the 40-pt criterion), and demo-or-die (live site + live tool, no localhost = provenance's hardest form). Bonus framed as the human-ceiling move beyond conformance.
+- **Open issues:** None blocking. Exercise set complete A1->Final (13 files: 01,01a,02,03,05,05a,05b,06a,07,08,09,10,final). Optional: a machine `deck-trace.json` checker for the slide->artifact audit remains unbuilt (human gate by design, consistent with 6A).

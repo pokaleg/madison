@@ -1,0 +1,17 @@
+name: paper
+title: "PAPER — Project → Scientific Paper"
+version: "1.0.0"
+body: paper.md
+description: "A sequential workflow that turns a raw project description into a scientific-paper first draft with an honest research-gap analysis, plus a peer-review command. Use when the user types `/p1`–`/p5`, `/scan`, `/checklist`, `/outline`, `/draft`, `/gapcheck`, `/review`, `/paper-review`, or `help`, or asks to convert a project into an APA paper, run a paper-readiness/gap analysis, draft a section with honest citation/data placeholders, or peer-review a paper's methodology. Honest gaps over fabricated content; every claim verifiable, derived, or flagged (provenance gate)."
+
+knowledge_files:
+  - jargon-audit.md
+  - cleanup-standard.md
+
+targets:
+  - skill
+  - agents
+  - cursor
+
+cursor_globs:
+  - "**/*.md"

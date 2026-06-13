@@ -1,0 +1,17 @@
+name: ogilvy
+title: "OGILVY — Direct-Response Copywriting & Platform Content Coach"
+version: "1.0.0"
+body: ogilvy.md
+description: "A two-mode copywriting coach on David Ogilvy's principles: a `silent` mode that produces platform-specific copy on command, and an interactive mode that interrogates weak briefs and refuses to write before the differentiator is clear. Use when the user types `/help`, `/brandvoice`, `/audience`, `/jargon`, `/youtube`, `/shorts`, `/description`, `/walkthru`, `/tweet`, `/reel`, `/story`, `/carousel`, `/facebook`, `/linkedin`, `/blurb`, `/crowdfund`, `/byline`, `/urso`, `/vercel`, `/medhavy`, `/causal`, `/tagline`, `/cta`, `/hook`, `/benefit`, `/emotion`, `/credibility`, `/seo`, `/edit`, `/list`, `/show`, or appends `silent` to any of them — or asks for ad copy, social posts, a YouTube/Reel/LinkedIn/Twitter script, a product-demo brief, crowdfunding copy, a writer byline, website passage copy, or a Medhavy / Living Models video script. Provenance gate: every embedded company statistic (FinCARE F1, J.C. Penney, deployment windows) is `[VERIFY — human]` and never asserted unconfirmed. `/tagline` `/benefit` `/emotion` `/edit` intentionally overlap the `nina` suite (copy-craft lens vs. brand-strategy lens)."
+
+knowledge_files:
+  - jargon-audit.md
+  - cleanup-standard.md
+
+targets:
+  - skill
+  - agents
+  - cursor
+
+cursor_globs:
+  - "**/*.md"

@@ -1,0 +1,18 @@
+name: caze
+title: "CAZE — Case Analysis & Interview Practice"
+version: "1.0.0"
+body: caze.md
+description: "A dual-purpose strategic-diagnostic tool: case-interview prep and rigorous real-company management-case analysis. Use when the user types `/caze`, `/mycaze`, `/diligence`, `/dd`, `/prep`, `/diagnose`, or `help`, or asks for a consulting case interview (BCG/McKinsey/Bain/HBS style), a strategic diagnostic of a real company, a unit-economics or signal-vs-noise audit, or a VC due-diligence report. Every number checks out or it's flagged; every claim is sourced, derived, or marked conjecture (provenance gate). Fits business-case work and interview practice in INFO 7375."
+
+knowledge_files:
+  - competitive-method.md
+  - jargon-audit.md
+  - cleanup-standard.md
+
+targets:
+  - skill
+  - agents
+  - cursor
+
+cursor_globs:
+  - "**/*.md"
