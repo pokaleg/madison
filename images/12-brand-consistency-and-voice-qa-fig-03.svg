@@ -17,7 +17,7 @@
 
 <!-- weight side labels -->
 <text x="70" y="100" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">launch-decision weight</text>
-<text x="70" y="262" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">revision-cycle weight</text>
+<text x="70" y="283" font-family="'JetBrains Mono','Fira Code','Courier New',monospace" font-size="10" fill="#545454">revision-cycle weight</text>
 
 <!-- gating bracket -->
 <line x1="56" y1="106" x2="56" y2="234" stroke="#C8102E" stroke-width="1.5"/>
@@ -48,5 +48,5 @@
 <text x="134" y="379" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="12" fill="#545454">Note</text>
 <text x="240" y="379" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">An observation — not a finding.</text>
 
-<text x="350" y="258" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Severity prioritizes; a matrix full of critical findings can no longer communicate.</text>
+<text x="350" y="250" text-anchor="middle" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">Severity prioritizes; a matrix full of critical findings can no longer communicate.</text>
 </svg>

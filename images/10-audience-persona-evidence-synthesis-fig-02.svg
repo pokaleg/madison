@@ -33,9 +33,9 @@
     <rect x="310" y="110" width="80" height="150" fill="#FFFFFF" stroke="#787878" stroke-width="1"/><text x="350" y="130" text-anchor="middle">Inference</text>
     <!-- Confidence with 3-state indicator -->
     <rect x="390" y="110" width="100" height="150" fill="#FFFFFF" stroke="#787878" stroke-width="1"/><text x="440" y="130" text-anchor="middle">Confidence</text>
-    <rect x="404" y="150" width="72" height="22" fill="#C8102E"/><text x="440" y="165" fill="#FFFFFF" text-anchor="middle">multiple</text>
-    <rect x="404" y="178" width="72" height="22" fill="#787878"/><text x="440" y="193" fill="#FFFFFF" text-anchor="middle">single</text>
-    <rect x="404" y="206" width="72" height="22" fill="#2a1a0e"/><text x="440" y="221" fill="#FFFFFF" text-anchor="middle">contradicted</text>
+    <rect x="398" y="150" width="84" height="22" fill="#C8102E"/><text x="440" y="165" fill="#FFFFFF" text-anchor="middle">multiple</text>
+    <rect x="398" y="178" width="84" height="22" fill="#787878"/><text x="440" y="193" fill="#FFFFFF" text-anchor="middle">single</text>
+    <rect x="398" y="206" width="84" height="22" fill="#2a1a0e"/><text x="440" y="221" fill="#FFFFFF" text-anchor="middle">contradicted</text>
 
     <rect x="490" y="110" width="80" height="150" fill="#FFFFFF" stroke="#787878" stroke-width="1"/><text x="530" y="130" text-anchor="middle">Contradict.</text>
     <!-- Excluded Assumption accented -->

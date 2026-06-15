@@ -47,8 +47,8 @@
   <g font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e">
     <rect x="196" y="238" width="146" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
     <text x="269" y="261" text-anchor="middle">Review criteria</text>
-    <rect x="358" y="238" width="146" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
-    <text x="431" y="261" text-anchor="middle">Named decision (yes/no)</text>
+    <rect x="352" y="238" width="156" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="430" y="261" text-anchor="middle">Named decision (yes/no)</text>
     <rect x="196" y="284" width="146" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
     <text x="269" y="307" text-anchor="middle">Named owner</text>
     <rect x="358" y="284" width="146" height="38" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>

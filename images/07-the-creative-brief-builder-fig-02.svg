@@ -44,7 +44,8 @@
     <!-- Single-Minded Proposition (emphasized) -->
     <rect x="48" y="238" width="200" height="40" fill="#FFFFFF" stroke="#C8102E" stroke-width="2"/><text x="60" y="262">Single-Minded Proposition</text>
     <rect x="270" y="248" width="16" height="20" fill="#C8860E"/><text x="294" y="262">Approval-needed</text>
-    <text x="470" y="262" fill="#C8102E">Highest exposure: needs claim-and-proof review</text>
+    <text x="470" y="255" fill="#C8102E">Highest exposure: needs</text>
+    <text x="470" y="269" fill="#C8102E">claim-and-proof review</text>
 
     <!-- Tone -->
     <rect x="48" y="282" width="200" height="40" fill="#FFFFFF" stroke="#D4D4D4" stroke-width="1"/><text x="60" y="306">Tone</text>

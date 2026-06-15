@@ -48,10 +48,10 @@
   <text x="453" y="270" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#2a1a0e" text-anchor="middle">Human four-list sort</text>
 
   <!-- gate annotation -->
-  <line x1="560" y1="259" x2="600" y2="259" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3"/>
-  <text x="608" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Named reviewer</text>
-  <text x="608" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">decides each list.</text>
-  <text x="608" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI only flags candidates.</text>
+  <line x1="538" y1="259" x2="552" y2="259" stroke="#2a1a0e" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="558" y="248" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">Named reviewer</text>
+  <text x="558" y="262" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">decides each list.</text>
+  <text x="558" y="276" font-family="'Inter',-apple-system,'Helvetica Neue',sans-serif" font-size="11" fill="#545454">AI only flags candidates.</text>
 
   <!-- human downstream row -->
   <line x1="368" y1="280" x2="220" y2="300" stroke="#2a1a0e" stroke-width="1.5" marker-end="url(#arrow)"/>
