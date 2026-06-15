@@ -41,6 +41,8 @@ The practical consequence is that you need a different audit mechanism. You cann
 
 That inspection is the core skill this book is about. Not the technical skill of operating a language model. The professional skill of knowing what to do with its output.
 
+Notice what this does and does not ask of you. It does not ask you to write the brief by hand. The machine is a superb drafter — let it generate the persona, the campaign concept, the content plan, faster and more fluently than you could. Producing the artifact was never the scarce skill, and refusing the machine's help with it buys you nothing. The skill is the inspection: splitting the fluent thing into claims and checking each one — what is its source, would it survive a skeptical stakeholder, who has to sign off before it ships. Approving a polished brief because it reads well — prompt-and-hope dressed up as judgment — is the failure this book exists to prevent. The question is never who produced the words. It is whether anyone checked them.
+
 ---
 
 The tool Madison uses for this inspection is simple enough to fit on an index card. Take any fluent artifact — a brief, a persona, a campaign concept, a content plan. Split it into individual claims. Then, for each claim, ask: what kind of thing is this, and does the kind of thing it is require evidence?
