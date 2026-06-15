@@ -31,7 +31,7 @@ A claim, for purposes of this exercise, is any assertion about the product, bran
 
 *The taxonomy exists to make proof requirements visible, not to eliminate claims. Some puffery is fine. Unsupported performance claims are not.*
 
-![The seven claim categories arranged as equal-weight nodes ordered by the proof burden they demand — performance and comparative at the high-burden end, puffery at the no-proof end — with puffery marked as the structural outlier.](images/09-claims-and-proof-map-fig-01.png)
+![The seven claim categories arranged as equal-weight nodes ordered by the proof burden they demand — performance and comparative at the high-burden end, puffery at the no-proof end — with puffery marked as the structural outlier.](../images/09-claims-and-proof-map-fig-01.png)
 *Figure 9.1 — Claim type taxonomy*
 
 Once the claims are extracted and sitting in rows, the next step is classification. Madison uses seven categories: factual claim, comparative claim, credential claim, performance claim, audience claim, puffery, and opinion. The categories are not about judgment — a credential claim is not better or worse than an opinion — they are about proof requirements. A factual claim needs a source. A comparative claim needs a methodology and a named comparison point. A credential claim needs documentation of the credential. A performance claim needs numbers with defined conditions. An audience claim needs audience data. Puffery needs nothing because it asserts nothing. An opinion needs attribution to a speaker who holds it.
@@ -54,7 +54,7 @@ A performance claim with no proof attached is not ready to ship. That is not a s
 
 *The matrix is not a grading rubric. It is a production tool. "High risk, no proof" is a work item, not a verdict.*
 
-![One row of the claims-and-proof matrix as a horizontal pipeline of linked cells — original claim, type, proof, risk, rewrite, approval owner, status — with the proof and status cells weighted as the load-bearing decision points and four colored end-states at the status terminus.](images/09-claims-and-proof-map-fig-02.png)
+![One row of the claims-and-proof matrix as a horizontal pipeline of linked cells — original claim, type, proof, risk, rewrite, approval owner, status — with the proof and status cells weighted as the load-bearing decision points and four colored end-states at the status terminus.](../images/09-claims-and-proof-map-fig-02.png)
 *Figure 9.2 — The claims/proof matrix anatomy*
 
 The risk assessment attaches to each claim independently, and it is a function of three factors: the claim type (comparative and performance claims carry higher inherent risk than puffery or opinion), the proof status (no proof is higher risk than supported proof), and the channel and context (a claim that runs in a regulated category, or in a jurisdiction with active advertising standards enforcement, carries more exposure than the same claim in a lower-stakes context). The matrix does not resolve the risk assessment — that is human judgment — but it gives the practitioner the inputs to make the judgment explicitly rather than implicitly.
@@ -69,7 +69,7 @@ The verification checklist for this chapter includes a line that is easy to skip
 
 The rewrite step should preserve the strategic intent of the claim while grounding it in available proof. If no proof is available and the claim cannot be grounded, the rewrite options are: qualify it explicitly as an opinion or user experience, replace it with a claim that can be supported, or flag it for the approval owner as a strategic choice that requires human sign-off. What it should not do is disappear the claim silently and let the copy ship with a gap where a selling point used to be.
 
-![A decision tree from a claim with no proof: if proof can be found, attach, verify, and rewrite with specifics; if not, either qualify it as opinion with attribution or flag it for the approval owner to remove or hold.](images/09-claims-and-proof-map-fig-03.png)
+![A decision tree from a claim with no proof: if proof can be found, attach, verify, and rewrite with specifics; if not, either qualify it as opinion with attribution or flag it for the approval owner to remove or hold.](../images/09-claims-and-proof-map-fig-03.png)
 *Figure 9.3 — The rewrite decision tree*
 
 <!-- → [DIAGRAM: The rewrite decision tree — starting from "claim with no proof attached," branching into: proof can be found (→ attach and verify → rewrite with specifics), proof cannot be found (→ can claim be qualified as opinion/UX? → yes: rewrite with attribution; no: flag for approval owner → remove or hold). Caption: The tree is a decision aid, not a policy. The approval owner can decide to ship a claim that the tree would flag, with documented reasoning.] -->
@@ -90,7 +90,7 @@ This is the phase gate in direct form. The agent can extract the claim, classify
 
 *The model prepares the matrix. The human signs the claim.*
 
-![Three zones — verified evidence, model judgment, and human judgment — with a heavier divider marking the phase gate between what the model prepares and what the human signs.](images/09-claims-and-proof-map-fig-04.png)
+![Three zones — verified evidence, model judgment, and human judgment — with a heavier divider marking the phase gate between what the model prepares and what the human signs.](../images/09-claims-and-proof-map-fig-04.png)
 *Figure 9.4 — Evidence boundary*
 
 ---
@@ -128,17 +128,17 @@ Prompt suggestion: *"Here is a claims/proof matrix. Help me populate the approva
 ## Prompts
 
 ### Figure 9.1 — Claim type taxonomy
-**Files:** images/09-claims-and-proof-map-fig-01.svg · d3/09-claims-and-proof-map-fig-01.html
+**Files:** ../images/09-claims-and-proof-map-fig-01.svg · ../d3/09-claims-and-proof-map-fig-01.html
 **Prompt:** Brutalist taxonomy of the seven claim categories as equal-weight nodes ordered by proof burden, high to low — performance and comparative at the top, puffery at the bottom. Mark puffery as the outlier with an ochre accent. One red; ink and gray otherwise; EB Garamond / Inter / JetBrains Mono.
 
 ### Figure 9.2 — The claims/proof matrix anatomy
-**Files:** images/09-claims-and-proof-map-fig-02.svg · d3/09-claims-and-proof-map-fig-02.html
+**Files:** ../images/09-claims-and-proof-map-fig-02.svg · ../d3/09-claims-and-proof-map-fig-02.html
 **Prompt:** Brutalist structural schematic of one matrix row as a left-to-right pipeline of seven cells (original claim, type, proof, risk, rewrite, approval owner, status). Weight the proof and status cells heavier; show four colored end-states at the status terminus, with removed in red.
 
 ### Figure 9.3 — The rewrite decision tree
-**Files:** images/09-claims-and-proof-map-fig-03.svg · d3/09-claims-and-proof-map-fig-03.html
+**Files:** ../images/09-claims-and-proof-map-fig-03.svg · ../d3/09-claims-and-proof-map-fig-03.html
 **Prompt:** Brutalist top-down decision tree from "claim with no proof." Diamonds for decisions, rounded rectangles for actions; single-headed ink arrows. The grounding path and the remove/hold terminus carry red accents; ≤8 nodes.
 
 ### Figure 9.4 — Evidence boundary
-**Files:** images/09-claims-and-proof-map-fig-04.svg · d3/09-claims-and-proof-map-fig-04.html
+**Files:** ../images/09-claims-and-proof-map-fig-04.svg · ../d3/09-claims-and-proof-map-fig-04.html
 **Prompt:** Brutalist three-zone comparison — verified evidence, model judgment, human judgment — stacked, with a heavier ochre divider marking the phase gate between what the model prepares and what the human signs. Human-judgment zone in red.

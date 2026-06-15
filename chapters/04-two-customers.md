@@ -12,7 +12,7 @@ Both workflows failed. For opposite reasons. The first one served its executing 
 
 Let me describe what each customer actually needs, because the needs are genuinely different and partially in tension.
 
-![A two-column comparison joined by a shared central spine — the left column is the executing agent and its needs (explicit inputs, a clear transformation, an output schema, graceful anomaly handling); the right column is the human maintainer and theirs (purpose, the decision supported, the review point and its meaning, context to judge, and the ability to modify the recipe) — signalling that a single recipe must satisfy both, partially in tension](images/04-two-customers-fig-01.png)
+![A two-column comparison joined by a shared central spine — the left column is the executing agent and its needs (explicit inputs, a clear transformation, an output schema, graceful anomaly handling); the right column is the human maintainer and theirs (purpose, the decision supported, the review point and its meaning, context to judge, and the ability to modify the recipe) — signalling that a single recipe must satisfy both, partially in tension](../images/04-two-customers-fig-01.png)
 *Figure 4.1 — The two customers of a recipe*
 
 The executing agent — the AI system, the automated script, whatever is running the operational steps — needs structure. It needs explicit inputs: where the data comes from, what format it arrives in, what to do if it's missing. It needs a clear transformation: the sequence of steps, the parameters, the decision rules. It needs an output schema: what the result looks like, where it goes, what gets logged. The agent does not need to understand the purpose of the workflow. It does not need context about why this matters. It needs operational specificity. Ambiguity makes agents fail silently, which is often worse than failing loudly.
@@ -25,7 +25,7 @@ The human maintainer also needs to be able to modify the workflow when the world
 
 Now I want to look carefully at what happens when a workflow underserves each customer, because the failure modes are different and worth distinguishing.
 
-![Two side-by-side panels showing the opposite ways a workflow fails — the left panel is the quiet failure: a complete, tidy structured-data artifact (clean schema, populated fields, green logs) with a hollow, outlined-only human-interpretation area; the right panel is the loud failure: a complete, persuasive narrative memo with a hollow, outlined-only reproducibility and log area](images/04-two-customers-fig-02.png)
+![Two side-by-side panels showing the opposite ways a workflow fails — the left panel is the quiet failure: a complete, tidy structured-data artifact (clean schema, populated fields, green logs) with a hollow, outlined-only human-interpretation area; the right panel is the loud failure: a complete, persuasive narrative memo with a hollow, outlined-only reproducibility and log area](../images/04-two-customers-fig-02.png)
 *Figure 4.2 — Two failure modes*
 
 When a workflow underserves the executing agent — when the recipe is too ambiguous, too narrative, too reliant on implied context — the agent makes guesses. Language models, in particular, are very good at making plausible guesses. This is not reassuring. A plausible guess that is wrong is harder to detect than a broken schema. If the input specification is vague and the model fills in what sounds reasonable, the output will look coherent. The logs will be clean. The error will be invisible until someone with domain knowledge looks at the substance and notices that the audience segment described does not match the customer data, or the competitive framing reflects a market position the brand abandoned eighteen months ago.
@@ -78,7 +78,7 @@ The version that serves both customers looks different. It specifies the review 
 
 That is a real gate. A gate that just says *review required* is a gate with no latch.
 
-![A comparison schematic contrasting a gate with no latch against a real decision gate — the weak gate is a single node carrying only an undifferentiated "review" instruction with an open pass-through that anything can cross; the real gate contains four components — review criteria, the named decision (yes or no), the named owner, and a logged record — that an output must satisfy before crossing](images/04-two-customers-fig-03.png)
+![A comparison schematic contrasting a gate with no latch against a real decision gate — the weak gate is a single node carrying only an undifferentiated "review" instruction with an open pass-through that anything can cross; the real gate contains four components — review criteria, the named decision (yes or no), the named owner, and a logged record — that an output must satisfy before crossing](../images/04-two-customers-fig-03.png)
 *Figure 4.3 — The latch-less gate vs the real gate*
 
 ---
@@ -111,13 +111,13 @@ A recipe that serves both customers can still overclaim. It can be runnable, leg
 ## Prompts
 
 ### Figure 4.1 — The two customers of a recipe
-**Files:** images/04-two-customers-fig-01.svg
+**Files:** ../images/04-two-customers-fig-01.svg
 **Prompt:** Render a brutalist two-column comparison joined by a shared central spine — left column "executing agent" (explicit inputs, clear transformation, output schema, graceful anomaly handling) in secondary grey; right column "human maintainer" (purpose, decision supported, review point and meaning, context to judge, modifiability) in ochre. Four to five empty rounded rows per column. Hardcoded palette (agent #545454, human #C8860E, spine #2a1a0e, border #D4D4D4, fill #F5F5F5, white #FFFFFF), no person or robot icons, no directional arrows.
 
 ### Figure 4.2 — Two failure modes
-**Files:** images/04-two-customers-fig-02.svg
+**Files:** ../images/04-two-customers-fig-02.svg
 **Prompt:** Render a brutalist two-panel comparison — left panel quiet failure: a complete structured-data block (schema, fields, a green-accent log) with a hollow outlined-only human-output area; right panel loud failure: a complete narrative block with a hollow outlined-only reproducibility/log area. Hardcoded palette (structured artifact #545454, narrative artifact #C8860E, empty regions ink #2a1a0e outline only, green-log accent — substitute secondary grey, red #C8102E reserved for emphasis, white #FFFFFF), no rendered JSON or memo text, no checkmarks.
 
 ### Figure 4.3 — The latch-less gate vs the real gate
-**Files:** images/04-two-customers-fig-03.svg
+**Files:** ../images/04-two-customers-fig-03.svg
 **Prompt:** Render a brutalist contrast of two gates — a weak gate: one node with an undifferentiated "review" instruction and an open unobstructed pass-through arrow; a real gate: one node holding four reserved component slots (review criteria, named decision yes/no, named owner, logged record) with a controlled crossing. Hardcoded palette (weak gate ochre #C8860E, real gate red #C8102E, pass-through arrows #2a1a0e, border #D4D4D4, fill #F5F5F5, white #FFFFFF), no literal door or lock imagery, no rendered criteria text.

@@ -20,7 +20,7 @@ This book is not a comprehensive technical manual for every AI system. It is not
 
 The recurring concept is the boundary between execution and judgment. Execution is the production of an artifact. Judgment is the disciplined decision about whether that artifact should exist, whether it is right, whether it fits the situation, what it leaves out, and what consequences follow from using it.
 
-![Two regions separated by a central boundary — the left region is execution, producing an artifact cheaply and fast; the right region is judgment, where accountability concentrates — with one arrow crossing the boundary to show an artifact must pass into judgment before it can be trusted](images/00-introduction-fig-01.png)
+![Two regions separated by a central boundary — the left region is execution, producing an artifact cheaply and fast; the right region is judgment, where accountability concentrates — with one arrow crossing the boundary to show an artifact must pass into judgment before it can be trusted](../images/00-introduction-fig-01.png)
 *Figure 1.1 — The execution–judgment boundary*
 
 ## How This Book Is Organized
@@ -47,7 +47,7 @@ Return to the polished artifact. Do not ask first whether it is impressive. Ask 
 ## Prompts
 
 ### Figure 1.1 — The execution–judgment boundary
-**Files:** images/00-introduction-fig-01.svg
+**Files:** ../images/00-introduction-fig-01.svg
 **Prompt:** Render a brutalist conceptual map of two regions split by one bold vertical boundary — execution (artifact production, lighter) on the left, judgment (accountability, the one red region) on the right — with a single horizontal arrow crossing left to right. Hardcoded palette (ink #2a1a0e, red #C8102E, secondary #545454, border #D4D4D4, white #FFFFFF), EB Garamond labels, no decoration, generous white space.
 
 ## Tags

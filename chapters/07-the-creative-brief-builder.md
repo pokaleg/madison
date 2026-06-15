@@ -34,7 +34,7 @@ Status labeling is simple. Every field in the brief carries one of four tags. Co
 
 A brief with these labels on every field looks very different from a brief with none. The labeled version shows you exactly where the work is finished and where it isn't. The unlabeled version shows you nothing except the form.
 
-![Four equal boxes naming the field-status labels — Confirmed, Inferred, Unknown, and Approval-needed — each with room for a one-line definition, sized equally to signal categories of readiness rather than a quality ranking.](images/07-the-creative-brief-builder-fig-01.png)
+![Four equal boxes naming the field-status labels — Confirmed, Inferred, Unknown, and Approval-needed — each with room for a one-line definition, sized equally to signal categories of readiness rather than a quality ranking.](../images/07-the-creative-brief-builder-fig-01.png)
 *Figure 7.1 — The four field-status labels*
 
 ---
@@ -51,7 +51,7 @@ The **single-minded proposition** is the claim the brand is making. This field h
 
 The **tone** field and the **mandatories** field are different in character. Tone is a taste judgment — it should be owned by a named person with brand authority, not left as a model suggestion that no one has actually approved. Mandatories are constraints: required elements, prohibited language, regulatory requirements, channel specifications. These should be Confirmed, meaning they come from a documented source. A mandatory that was inferred or invented is not a mandatory — it is a guess about what the organization requires, and it will cause problems the first time it is wrong.
 
-![A vertical list of six brief fields — Objective, Audience, Insight, Single-Minded Proposition, Tone, Mandatories — each mapped to the status it should reach, with the Proposition row accented as the highest-exposure field.](images/07-the-creative-brief-builder-fig-02.png)
+![A vertical list of six brief fields — Objective, Audience, Insight, Single-Minded Proposition, Tone, Mandatories — each mapped to the status it should reach, with the Proposition row accented as the highest-exposure field.](../images/07-the-creative-brief-builder-fig-02.png)
 *Figure 7.2 — Brief fields and their evidence thresholds*
 
 ---
@@ -85,7 +85,7 @@ The second option — proceeding with known gaps — is sometimes the right call
 
 The approval record belongs in the brief or the log: who reviewed it, when, and what status each field had at the time of approval. This is not bureaucracy. It is the minimum traceable record that lets the organization learn from the campaign after it runs.
 
-![A left-to-right flow from Brief to Assumption Register to a prominent Gate to Asset Generation, with two permitted crossings — gaps resolved, or risk explicitly accepted by a named person — and a third blocked path where the brief drifts forward with invisible gaps.](images/07-the-creative-brief-builder-fig-03.png)
+![A left-to-right flow from Brief to Assumption Register to a prominent Gate to Asset Generation, with two permitted crossings — gaps resolved, or risk explicitly accepted by a named person — and a third blocked path where the brief drifts forward with invisible gaps.](../images/07-the-creative-brief-builder-fig-03.png)
 *Figure 7.3 — Brief, register, and the gate before asset work*
 
 ---
@@ -122,13 +122,13 @@ The brief says what the work is trying to do. It does not say how the organizati
 ## Prompts
 
 ### Figure 7.1 — The four field-status labels
-**Files:** images/07-the-creative-brief-builder-fig-01.svg · d3/07-the-creative-brief-builder-fig-01.html
+**Files:** ../images/07-the-creative-brief-builder-fig-01.svg · ../d3/07-the-creative-brief-builder-fig-01.html
 **Prompt:** Brutalist taxonomy of four equal boxes — Confirmed, Inferred, Unknown, Approval-needed — each with a one-line definition. Equal sizing signals categories of readiness, not a ranking. One red accent reserved for Approval-needed, ochre for Unknown; ink and gray otherwise; EB Garamond / Inter / JetBrains Mono.
 
 ### Figure 7.2 — Brief fields and their evidence thresholds
-**Files:** images/07-the-creative-brief-builder-fig-02.svg · d3/07-the-creative-brief-builder-fig-02.html
+**Files:** ../images/07-the-creative-brief-builder-fig-02.svg · ../d3/07-the-creative-brief-builder-fig-02.html
 **Prompt:** Brutalist field-to-status schematic. Vertical list of six brief fields, each with a small status chip showing the readiness it should reach. Accent the single-minded proposition row in red as the highest-exposure field. No filled example copy.
 
 ### Figure 7.3 — Brief, register, and the gate before asset work
-**Files:** images/07-the-creative-brief-builder-fig-03.svg · d3/07-the-creative-brief-builder-fig-03.html
+**Files:** ../images/07-the-creative-brief-builder-fig-03.svg · ../d3/07-the-creative-brief-builder-fig-03.html
 **Prompt:** Brutalist process flow: Brief → Assumption Register → Gate → Asset Generation with single-headed arrows. Gate bordered in ochre; two permitted crossings (gaps resolved; risk accepted by a named person) and one blocked red dashed path for silent default drift.

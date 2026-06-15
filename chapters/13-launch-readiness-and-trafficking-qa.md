@@ -36,7 +36,7 @@ The fifth is **accessibility**. Images have alt text. Videos have captions. Colo
 
 The sixth is **blocker identification and severity classification**. After running the first five checks, you will have a list of gaps. Some of them are critical — they will prevent the campaign from running correctly or expose the organization to legal or reputational risk. Some are significant — they represent quality problems that should ideally be fixed before launch. Some are minor — they are worth noting but do not affect the launch decision. The classification matters because it determines what the go/no-go decision is actually weighing. A launch with one critical blocker unresolved is a different thing from a launch with three minor ones.
 
-![Six launch check categories: five parallel checks — asset completeness, URL and tracking, claims and proof, approvals and disclosures, accessibility — converging into a downstream blocker-classification node, with the claims-and-proof check weighted as the most consequential.](images/13-launch-readiness-and-trafficking-qa-fig-01.png)
+![Six launch check categories: five parallel checks — asset completeness, URL and tracking, claims and proof, approvals and disclosures, accessibility — converging into a downstream blocker-classification node, with the claims-and-proof check weighted as the most consequential.](../images/13-launch-readiness-and-trafficking-qa-fig-01.png)
 *Figure 13.1 — The six launch check categories*
 
 ---
@@ -55,7 +55,7 @@ The launch readiness pack is a table. Each row is a specific check item. The col
 
 The table is not designed to be comprehensive in the abstract. It is designed to be comprehensive for this campaign, this buy, these assets, this team. The items on the list should reflect what was actually supposed to be produced and what actually needs to be checked before launch. A table that is thorough in principle but doesn't reflect the actual campaign is a conformance artifact, not a readiness artifact.
 
-![Anatomy of one launch-readiness-pack row as eight aligned cells, with the required-state and current-state cells bracketed together to expose the gap, a date-stamp glyph on the evidence cell, and a four-state severity indicator.](images/13-launch-readiness-and-trafficking-qa-fig-02.png)
+![Anatomy of one launch-readiness-pack row as eight aligned cells, with the required-state and current-state cells bracketed together to expose the gap, a date-stamp glyph on the evidence cell, and a four-state severity indicator.](../images/13-launch-readiness-and-trafficking-qa-fig-02.png)
 *Figure 13.2 — Launch readiness pack row anatomy*
 
 ---
@@ -66,7 +66,7 @@ The go decision is not a technical determination. It is not the answer to the qu
 
 The go decision belongs to a named person. Not the team. Not the process. One person whose name goes in the record, who has reviewed the blocker list and its severity classifications, and who has accepted the responsibility of saying that the campaign is ready to be public.
 
-![Go/no-go decision flow: a classified blocker list feeds a single named approver asking whether remaining risk is acceptable, branching to a recorded go, a hold, or a non-acceptable critical-blocker terminus for a misaligned claim or unidentified approver.](images/13-launch-readiness-and-trafficking-qa-fig-03.png)
+![Go/no-go decision flow: a classified blocker list feeds a single named approver asking whether remaining risk is acceptable, branching to a recorded go, a hold, or a non-acceptable critical-blocker terminus for a misaligned claim or unidentified approver.](../images/13-launch-readiness-and-trafficking-qa-fig-03.png)
 *Figure 13.3 — The go/no-go decision gate*
 
 This sounds formal, and in small organizations it often happens informally — a senior person looks at the status, asks a couple of questions, and says go. That is fine. What Madison requires is not ceremony. It is traceability. The go decision should be recorded: who made it, when, and what the blocker status was at the time. If something goes wrong after launch, that record is what lets the organization understand what was known and accepted, rather than what was missed.
@@ -115,13 +115,13 @@ The campaign that launched well creates the conditions for useful reporting. The
 ## Prompts
 
 ### Figure 13.1 — The six launch check categories
-**Files:** images/13-launch-readiness-and-trafficking-qa-fig-01.svg
+**Files:** ../images/13-launch-readiness-and-trafficking-qa-fig-01.svg
 **Prompt:** Systems diagram on white: five parallel check nodes — asset completeness, URL and tracking, claims and proof, approvals and disclosures, accessibility — converging via single-headed arrows into a downstream blocker-classification node drawn in ink as the synthesis step, with the claims-and-proof node at a heavier stroke to mark it as the most consequential check. Brutalist palette only, EB Garamond title, Inter labels.
 
 ### Figure 13.2 — Launch readiness pack row anatomy
-**Files:** images/13-launch-readiness-and-trafficking-qa-fig-02.svg
+**Files:** ../images/13-launch-readiness-and-trafficking-qa-fig-02.svg
 **Prompt:** Structural schematic of one launch-readiness row as eight aligned cells on white, with the required-state and current-state cells bracketed together to expose the gap, a small date-stamp glyph on the evidence cell, and a four-state severity indicator. JetBrains Mono numerals, ink hairlines, no baked example values.
 
 ### Figure 13.3 — The go/no-go decision gate
-**Files:** images/13-launch-readiness-and-trafficking-qa-fig-03.svg
+**Files:** ../images/13-launch-readiness-and-trafficking-qa-fig-03.svg
 **Prompt:** Process flowchart on white: a classified blocker list feeds a single named-approver decision (a vertical ink gate line) asking whether remaining risk is acceptable, branching to a recorded go, a hold, and a red non-acceptable critical-blocker terminus for a misaligned claim or unidentified approver. Single-headed arrows, brutalist palette only, no checkbox tally.

@@ -21,7 +21,7 @@ Here is what a signal actually looks like. A competitor's homepage headline on a
 
 *The matrix is an observation layer, not a strategy layer. Implications go in a separate labeled section.*
 
-![An empty seven-column grid schematic of the competitor-observation matrix — Source, Capture Date, Primary Claim, Proof Offered, CTA, Audience Signal, Contradiction Flag — with the source-and-date pair grouped as provenance and the contradiction column accented.](images/06-competitor-signal-scan-fig-01.png)
+![An empty seven-column grid schematic of the competitor-observation matrix — Source, Capture Date, Primary Claim, Proof Offered, CTA, Audience Signal, Contradiction Flag — with the source-and-date pair grouped as provenance and the contradiction column accented.](../images/06-competitor-signal-scan-fig-01.png)
 *Figure 6.1 — The competitor matrix, core columns*
 
 The recipe for this chapter is built around that matrix. Inputs: the competitor set, the category terms you are using to bound the comparison, a source list, a date range, and the brand question you are trying to answer. Steps: capture the sources directly — screenshots, URLs with timestamps, downloaded ads — and then extract from each source the specific observable features: positioning language, claims, proof offered, CTA, audience signals, channel choices, tone. Flag contradictions when you find them. Compare patterns across the set. Write human-review notes for every inference that goes beyond the observation. Outputs: the matrix, a source appendix, and a short implication memo that is labeled as interpretation rather than observation. Gate: strategy recommendations stay separate from observations, and the separation is explicit, not implicit. Log: competitor names, URLs or file paths, capture timestamps, and extraction notes.
@@ -36,7 +36,7 @@ The agent is genuinely useful for extraction at scale. Give it a set of captured
 
 What it cannot do is decide which competitors belong in the set. That decision depends on strategy, market context, and business stakes in ways that are not visible in the public-facing materials themselves. A direct category competitor is an obvious inclusion. But what about the brand that is not technically competing with your client today but is moving in the same direction and will be competing in eighteen months? What about the brand from an adjacent category that is capturing the same audience attention? Those inclusion decisions require someone who understands the client's actual strategic situation, not just the public landscape.
 
-![Two columns of competitor-scan tasks — the agent gathers, extracts, normalizes, and flags; the human defines the set and decides implications — meeting at a central gate where the agent's outputs become the human's inputs.](images/06-competitor-signal-scan-fig-02.png)
+![Two columns of competitor-scan tasks — the agent gathers, extracts, normalizes, and flags; the human defines the set and decides implications — meeting at a central gate where the agent's outputs become the human's inputs.](../images/06-competitor-signal-scan-fig-02.png)
 *Figure 6.2 — The agent–human division in a competitor scan*
 
 <!-- → [DIAGRAM: The agent-human division in a competitor scan — two columns. Agent column: gather public signals, extract observable features, normalize vocabulary, flag contradictions, identify patterns. Human column: define the competitor set, assess category relevance, interpret strategic meaning, decide implications. Caption: The columns meet at the gate. The agent's outputs become the human's inputs, not the human's conclusions.] -->
@@ -51,7 +51,7 @@ Contradictions in competitor messaging are informative. A brand that positions i
 
 None of those inferences should appear in the matrix as conclusions. They should appear as observations with a contradiction flag and a human-review note that says something like: *homepage positions as transparent, ads use countdown-timer scarcity mechanics — review note: possible misalignment between brand and performance teams, or deliberate bifurcation by audience segment. Human interpretation required.* The note names what was observed, names the possible interpretation, and explicitly holds that interpretation as a candidate rather than a finding.
 
-![Stacked horizontal bars showing contradiction flags per competitor, split into substantive contradictions in red and surface tone variation in gray.](images/06-competitor-signal-scan-fig-04.png)
+![Stacked horizontal bars showing contradiction flags per competitor, split into substantive contradictions in red and surface tone variation in gray.](../images/06-competitor-signal-scan-fig-04.png)
 *Figure 6.3 — Contradiction frequency across a competitor set*
 
 <!-- → [CHART: Contradiction frequency across a hypothetical competitor set — a simple bar showing how many contradiction flags appear per competitor, with a note distinguishing substantive contradictions (strategy vs. execution) from surface contradictions (tone variation by channel). Caption: Not all contradictions are problems. Some are strategic. The matrix surfaces them; the practitioner decides which kind they are.] -->
@@ -68,7 +68,7 @@ All of those interpretations are possible from the same observation. The matrix 
 
 The implication memo exists for exactly this reason: to give the strategist a first pass at interpretation, clearly labeled as interpretation, that they can evaluate and revise with their fuller knowledge. It is a thinking aid, not a conclusion. The difference between "competitors are leading with social proof" (observation) and "your client should lead with social proof" (recommendation) is the gate, and the gate is the human judgment about whether this pattern is relevant, actionable, and right for this client's particular situation.
 
-![A two-band systems diagram: a lower observation layer of sourced, dated signals and an upper implication layer of labeled interpretations, separated by a gate line crossed by a single upward arrow representing human judgment.](images/06-competitor-signal-scan-fig-03.png)
+![A two-band systems diagram: a lower observation layer of sourced, dated signals and an upper implication layer of labeled interpretations, separated by a gate line crossed by a single upward arrow representing human judgment.](../images/06-competitor-signal-scan-fig-03.png)
 *Figure 6.4 — Observation layer vs. implication layer*
 
 | Layer | What it contains | Who is accountable |
@@ -124,17 +124,17 @@ Prompt suggestion: *"Here is a competitor matrix with several contradiction flag
 ## Prompts
 
 ### Figure 6.1 — The competitor matrix, core columns
-**Files:** images/06-competitor-signal-scan-fig-01.svg · d3/06-competitor-signal-scan-fig-01.html
+**Files:** ../images/06-competitor-signal-scan-fig-01.svg · ../d3/06-competitor-signal-scan-fig-01.html
 **Prompt:** Brutalist structural schematic of the competitor-observation matrix as an empty seven-column grid (Source, Capture Date, Primary Claim, Proof Offered, CTA, Audience Signal, Contradiction Flag). One red accent, ink rules on white, EB Garamond / Inter / JetBrains Mono. Group source and date as the provenance pair; accent the contradiction column. No filled data.
 
 ### Figure 6.2 — The agent–human division in a competitor scan
-**Files:** images/06-competitor-signal-scan-fig-02.svg · d3/06-competitor-signal-scan-fig-02.html
+**Files:** ../images/06-competitor-signal-scan-fig-02.svg · ../d3/06-competitor-signal-scan-fig-02.html
 **Prompt:** Brutalist two-column division-of-labor diagram. Left column lists the agent's tasks, right column the human's, meeting at a single ochre-bordered gate. Single-headed red arrows cross the gate showing agent outputs become human inputs. Ink and gray on white; no icons.
 
 ### Figure 6.3 — Contradiction frequency across a competitor set
-**Files:** images/06-competitor-signal-scan-fig-04.svg · d3/06-competitor-signal-scan-fig-04.html
+**Files:** ../images/06-competitor-signal-scan-fig-04.svg · ../d3/06-competitor-signal-scan-fig-04.html
 **Prompt:** Brutalist stacked horizontal bar chart, zero baseline, of contradiction flags per competitor. Red encodes substantive contradictions (strategy vs. execution), gray encodes surface tone variation. JetBrains Mono axis ticks; one red, grays for the rest.
 
 ### Figure 6.4 — Observation layer vs. implication layer
-**Files:** images/06-competitor-signal-scan-fig-03.svg · d3/06-competitor-signal-scan-fig-03.html
+**Files:** ../images/06-competitor-signal-scan-fig-03.svg · ../d3/06-competitor-signal-scan-fig-03.html
 **Prompt:** Brutalist two-band systems diagram. Lower band is the sourced, dated observation layer; upper band is the labeled implication layer; a single red upward arrow crosses an ochre gate line marked as human judgment. Annotate that one observation can support several interpretations.

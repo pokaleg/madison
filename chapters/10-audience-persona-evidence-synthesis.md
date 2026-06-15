@@ -32,7 +32,7 @@ None of these sources produce a clean persona directly. They produce evidence ro
 
 The work of persona synthesis is the work of moving from evidence rows to warranted claims. That movement requires clustering — finding patterns across many observations that suggest a shared need, a shared frustration, a shared context. It requires confidence labeling — distinguishing between things that many sources confirm independently and things that one source mentioned once. It requires handling contradictions — preserving the observation that customers both want more communication and report feeling over-contacted, rather than resolving the tension by choosing one side. And it requires exclusion — actively removing demographic and psychographic details that sound plausible but have no source, because their plausibility is the thing that makes them dangerous.
 
-![A left-to-right pipeline: many discrete evidence rows pass through clustering, confidence labeling, contradiction handling, and exclusion to reach a warranted-claims output, while the exclusion step diverts unsourced details down into a separate excluded-assumptions parking lane.](images/10-audience-persona-evidence-synthesis-fig-01.png)
+![A left-to-right pipeline: many discrete evidence rows pass through clustering, confidence labeling, contradiction handling, and exclusion to reach a warranted-claims output, while the exclusion step diverts unsourced details down into a separate excluded-assumptions parking lane.](../images/10-audience-persona-evidence-synthesis-fig-01.png)
 *Figure 10.1 — Evidence rows to warranted claims*
 
 ---
@@ -49,7 +49,7 @@ What does not belong is the inference that is really invention dressed as infere
 
 The test for inclusion is this: can I describe the evidence this claim rests on in one sentence? If yes, include it with the label. If no, exclude it from the persona and move it to the excluded assumptions list, where it can be tracked as a hypothesis to test if resources allow.
 
-![A compact decision flowchart: a candidate persona detail meets one test — can the evidence be described in one sentence? — with a yes branch that includes it with a label and a no branch that routes it into the excluded-assumptions list, alongside a distinction between admissible evidence-supported inference and rejected pattern-completion.](images/10-audience-persona-evidence-synthesis-fig-03.png)
+![A compact decision flowchart: a candidate persona detail meets one test — can the evidence be described in one sentence? — with a yes branch that includes it with a label and a no branch that routes it into the excluded-assumptions list, alongside a distinction between admissible evidence-supported inference and rejected pattern-completion.](../images/10-audience-persona-evidence-synthesis-fig-03.png)
 *Figure 10.2 — The inclusion test*
 
 ---
@@ -64,7 +64,7 @@ The test for inclusion is this: can I describe the evidence this claim rests on 
 
 *The excluded-assumption column is not a failure record. It is a research agenda — gaps turned into explicit questions rather than invisible holes.*
 
-![The seven-column persona evidence sheet as one annotated row — evidence, source, audience dimension, inference, confidence, contradiction, excluded assumption — with five sub-markers for need, pain, trigger, objection, and context inside the dimension cell, a three-state confidence indicator, and the excluded-assumption cell accented with an outbound arrow.](images/10-audience-persona-evidence-synthesis-fig-02.png)
+![The seven-column persona evidence sheet as one annotated row — evidence, source, audience dimension, inference, confidence, contradiction, excluded assumption — with five sub-markers for need, pain, trigger, objection, and context inside the dimension cell, a three-state confidence indicator, and the excluded-assumption cell accented with an outbound arrow.](../images/10-audience-persona-evidence-synthesis-fig-02.png)
 *Figure 10.3 — The persona evidence sheet structure*
 
 The persona evidence sheet has seven columns. Evidence: the exact observation, in the language of the source if possible. Source: where this came from — interview ID, survey instrument, ticket number, analytics report, date. Audience dimension: which of the five categories this observation speaks to — need, pain, trigger, objection, or context. Inference: if this evidence supports a broader claim, state the claim and the reasoning. Confidence: how many independent sources corroborate this observation — single source, multiple sources, or contradicted. Contradiction: if this observation conflicts with another observation in the sheet, note it. Excluded assumption: any detail that was considered but excluded because it lacked a source.
@@ -113,13 +113,13 @@ The audience evidence and the claim proof now exist as separate, inspectable bod
 ## Prompts
 
 ### Figure 10.1 — Evidence rows to warranted claims
-**Files:** images/10-audience-persona-evidence-synthesis-fig-01.svg · d3/10-audience-persona-evidence-synthesis-fig-01.html
+**Files:** ../images/10-audience-persona-evidence-synthesis-fig-01.svg · ../d3/10-audience-persona-evidence-synthesis-fig-01.html
 **Prompt:** Brutalist left-to-right pipeline. Discrete evidence rows feed four sequential operations — cluster, confidence-label, contradiction-handle, exclude — ending in a red-accented warranted-claims node. The exclusion step diverts down an ochre branch into a separate excluded-assumptions parking lane. EB Garamond / Inter / JetBrains Mono.
 
 ### Figure 10.2 — The inclusion test
-**Files:** images/10-audience-persona-evidence-synthesis-fig-03.svg · d3/10-audience-persona-evidence-synthesis-fig-03.html
+**Files:** ../images/10-audience-persona-evidence-synthesis-fig-03.svg · ../d3/10-audience-persona-evidence-synthesis-fig-03.html
 **Prompt:** Brutalist compact decision flowchart. A candidate detail meets one diamond — can the evidence be described in one sentence? Yes leads to a red include-with-label node; no leads to an ochre exclude-and-route node. Single-headed ink arrows; exclusion framed as deferral, not deletion.
 
 ### Figure 10.3 — The persona evidence sheet structure
-**Files:** images/10-audience-persona-evidence-synthesis-fig-02.svg · d3/10-audience-persona-evidence-synthesis-fig-02.html
+**Files:** ../images/10-audience-persona-evidence-synthesis-fig-02.svg · ../d3/10-audience-persona-evidence-synthesis-fig-02.html
 **Prompt:** Brutalist structural schematic of one row of the seven-column persona evidence sheet. Inside the dimension cell, five sub-markers for need, pain, trigger, objection, context; a three-state confidence indicator (single, multiple, contradicted in red); the excluded-assumption cell accented in ochre with an outbound arrow.

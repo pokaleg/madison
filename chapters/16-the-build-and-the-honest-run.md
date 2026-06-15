@@ -46,7 +46,7 @@ The fourth is a **close with findings** decision: the run is complete, the scope
 
 The gate decision record should contain, for each gate: which type of decision was made, who made it, what the state of the evidence was at the time, and what the open items were if any. This record is one of the most valuable outputs of the run. It is the organizational memory of what was known, what was decided, and what was deferred.
 
-![Four gate decision types shown as contrasting forward-motion fragments: proceed (clean arrow), conditional proceed (arrow carrying open items), hold (arrow stopped at a barrier), and close with findings (terminal node depositing open questions into future work) — none of them a failure.](images/16-the-build-and-the-honest-run-fig-02.png)
+![Four gate decision types shown as contrasting forward-motion fragments: proceed (clean arrow), conditional proceed (arrow carrying open items), hold (arrow stopped at a barrier), and close with findings (terminal node depositing open questions into future work) — none of them a failure.](../images/16-the-build-and-the-honest-run-fig-02.png)
 *Figure 16.2 — The four gate decision types*
 
 ---
@@ -60,7 +60,7 @@ The gate decision record should contain, for each gate: which type of decision w
 
 *The gate decision record is the organizational memory of what was known, what was decided, and what was deferred at each gate.*
 
-![Anatomy of one gate-decision-record row as six aligned cells — gate, decision type, evidence state, open items, decision owner, timestamp — with a four-state decision indicator and the evidence-state and open-items cells bracketed together.](images/16-the-build-and-the-honest-run-fig-03.png)
+![Anatomy of one gate-decision-record row as six aligned cells — gate, decision type, evidence state, open items, decision owner, timestamp — with a four-state decision indicator and the evidence-state and open-items cells bracketed together.](../images/16-the-build-and-the-honest-run-fig-03.png)
 *Figure 16.3 — Run gate decision record*
 
 I want to say something directly about the portfolio function of an honest run, because practitioners who are building their professional record sometimes misunderstand what the record is supposed to demonstrate.
@@ -97,7 +97,7 @@ The portfolio note: a one-page account of what this run demonstrates about the p
 
 And the reflection: the honest account of what the run proved, what it didn't, and what you'd do differently.
 
-![Systems diagram of the six honest-run artifacts around a bounded-project core: the run log as the auditable spine, the evidence appendix feeding the report, the gate decision record logged in sequence, the reflection paired with the log, and the report marked as the single artifact that crosses the phase gate.](images/16-the-build-and-the-honest-run-fig-01.png)
+![Systems diagram of the six honest-run artifacts around a bounded-project core: the run log as the auditable spine, the evidence appendix feeding the report, the gate decision record logged in sequence, the reflection paired with the log, and the report marked as the single artifact that crosses the phase gate.](../images/16-the-build-and-the-honest-run-fig-01.png)
 *Figure 16.1 — The honest run output package*
 
 If the evidence is thin anywhere in this package, write that. Do not produce a report that sounds comprehensive when the evidence base is narrow. Do not write gate decisions as proceeds when the honest description is conditional. Do not omit the open items from the reflection because they make the run look incomplete. Incompleteness is not a failure of the run — it is the accurate state of most real projects. A run that acknowledges its incompleteness is more useful than one that hides it.
@@ -116,13 +116,13 @@ The appendix that follows this chapter gathers the principles that explain why M
 ## Prompts
 
 ### Figure 16.1 — The honest run output package
-**Files:** images/16-the-build-and-the-honest-run-fig-01.svg
+**Files:** ../images/16-the-build-and-the-honest-run-fig-01.svg
 **Prompt:** Systems diagram on white of six artifact nodes around a bounded-project core — run log (drawn as the auditable spine), evidence appendix feeding the report, gate decision record logged in sequence, portfolio note, and reflection paired with the log — with the report node marked distinctly as the one artifact that crosses the phase gate. Single-headed dependency connectors, brutalist palette only, no file names.
 
 ### Figure 16.2 — The four gate decision types
-**Files:** images/16-the-build-and-the-honest-run-fig-02.svg
+**Files:** ../images/16-the-build-and-the-honest-run-fig-02.svg
 **Prompt:** Four-panel comparison on white, each a small flow fragment with a distinct forward-arrow treatment: proceed (clean arrow), conditional proceed (arrow carrying an open-items marker), hold (arrow stopped at a barrier with a named blocker), and close with findings (terminal node depositing open questions into a future-work area). Color treatment signals that none is a failure; brutalist palette only, no baked text.
 
 ### Figure 16.3 — Run gate decision record
-**Files:** images/16-the-build-and-the-honest-run-fig-03.svg
+**Files:** ../images/16-the-build-and-the-honest-run-fig-03.svg
 **Prompt:** Structural schematic of one gate-decision-record row as six aligned cells on white — gate, decision type, evidence state, open items, decision owner, timestamp — with a four-state indicator in the decision-type cell, the evidence-state and open-items cells bracketed together, and an accountability marker on the owner cell. JetBrains Mono numerals, no example values, brutalist palette only.

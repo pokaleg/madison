@@ -9,7 +9,7 @@ The report said the audience is anxious about pricing. It said the category is s
 
 The failure in that room is not that AI was used. AI is useful; that is not in dispute. The failure is that an artifact crossed a professional boundary — from working material to decision-support — without evidence, without ownership, and without a gate. Someone trusted the output because it looked finished, and finished things have a way of demanding trust they have not earned.
 
-![A two-column comparison — the left column "what a finished-looking report conveys" holds confidence, authority, and recommendation; the right column "what the report requires to be defensible" holds a source chain, a transformation log, and a human adequacy judgment — separated by a thin vertical boundary representing the professional line that polished formatting tends to obscure](images/03-the-verified-brand-data-contract-fig-04.png)
+![A two-column comparison — the left column "what a finished-looking report conveys" holds confidence, authority, and recommendation; the right column "what the report requires to be defensible" holds a source chain, a transformation log, and a human adequacy judgment — separated by a thin vertical boundary representing the professional line that polished formatting tends to obscure](../images/03-the-verified-brand-data-contract-fig-04.png)
 *Figure 3.1 — Looks done vs is defensible*
 
 <!-- → [DIAGRAM: The gap between "looks done" and "is defensible" — a simple two-column illustration showing what a polished report conveys (confidence, authority, recommendation) vs. what it requires to be professionally defensible (source chain, transformation log, human adequacy judgment). Caption: The professional boundary that finished formatting tends to obscure.] -->
@@ -34,7 +34,7 @@ And "verified" does not mean the data has been proven correct in some absolute s
 
 *Table 3.1 — Labels are not judgments about quality. They are categories of epistemic status.*
 
-![A taxonomy of five equal parallel boxes stacked from raw to finished — raw data, verified data, generated artifact, approval record, and report — each with a reserved definition slot; colour marks epistemic status rather than quality, with the generated artifact flagged as not-evidence-by-default and the report as the terminal product](images/03-the-verified-brand-data-contract-fig-01.png)
+![A taxonomy of five equal parallel boxes stacked from raw to finished — raw data, verified data, generated artifact, approval record, and report — each with a reserved definition slot; colour marks epistemic status rather than quality, with the generated artifact flagged as not-evidence-by-default and the report as the terminal product](../images/03-the-verified-brand-data-contract-fig-01.png)
 *Figure 3.4 — The five epistemic-status labels*
 
 ---
@@ -45,7 +45,7 @@ The agent is very good at extraction. Give it a folder of files and ask it which
 
 What it cannot do is confer legitimacy on a source by summarizing it. This is the hard boundary, and it is worth stating directly because the agent's summaries can be so fluent and so confident that they create the impression of authority they do not possess. A summary of a source is not evidence that the source is adequate for the claim being made. That judgment — adequacy for the decision at hand — requires a human who understands the decision and can evaluate whether the evidence is sufficient to support it.
 
-![A triangular systems diagram with three corner nodes — Scope, Approval, Verification — each pointing toward a central Accountable Output node; the three questions are concurrent, not sequential, and should all have answers before the workflow begins](images/02-the-reallocation-principle-fig-03.png)
+![A triangular systems diagram with three corner nodes — Scope, Approval, Verification — each pointing toward a central Accountable Output node; the three questions are concurrent, not sequential, and should all have answers before the workflow begins](../images/02-the-reallocation-principle-fig-03.png)
 *Figure 3.2 — The agentic supervision scaffold (shared with Chapter 2)*
 
 <!-- → [DIAGRAM: Agentic supervision three-question scaffold — Scope (what is the agent allowed to do?), Approval (who decides whether the output moves forward?), Verification (what evidence would make the output defensible?). A triangular arrangement, with each question pointing toward the human decision in the center. Caption: The three questions are not sequential. They should all have answers before the workflow begins.] -->
@@ -54,7 +54,7 @@ The practical structure for holding this boundary is what Madison calls the reci
 
 Here is what a recipe for this kind of work looks like in its minimal useful form. Inputs: source files, URLs, screenshots, analytics exports, prompts, logs, and report templates. Steps: label each input by its epistemic status; connect outputs back to sources; record every transformation; flag every gap where the chain is broken or thin; write a provenance note. Outputs: a source map, a missing-evidence list, and a short paragraph suitable for inclusion in the report that describes the provenance of its claims. Gate: no strategic recommendation moves forward unless the source chain behind it is visible. Log: store source paths, run IDs, and every gap that was not resolved.
 
-![A process flowchart of the minimal recipe structure — Inputs, Steps, Outputs, a prominently emphasized Gate, and Log — connected by single forward arrows, with the agent preparing the ground at Inputs and Steps and the human crossing at the emphasized Gate, whose decision is recorded into the Log](images/03-the-verified-brand-data-contract-fig-03.png)
+![A process flowchart of the minimal recipe structure — Inputs, Steps, Outputs, a prominently emphasized Gate, and Log — connected by single forward arrows, with the agent preparing the ground at Inputs and Steps and the human crossing at the emphasized Gate, whose decision is recorded into the Log](../images/03-the-verified-brand-data-contract-fig-03.png)
 *Figure 3.5 — The recipe structure*
 
 The gate is the professional moment. The AI prepares the ground on one side of it. The accountable practitioner crosses it.
@@ -69,7 +69,7 @@ Now the question becomes specific: is that chain adequate for the claim? The sou
 
 These are not gotcha questions. They are the ordinary questions of professional adequacy, and they have determinate answers. Either the chain supports the claim or it does not. If it does not, the provenance note says so directly, and the claim either gets qualified or gets cut.
 
-![A provenance-chain diagram tracing one strategic claim backward — the claim at the top descends through intermediate artifacts (a report, a template, a recipe run, a model summarization) down to a row of source documents; one descending link carries a visible break labelled "source not checked for date/methodology," and one lower node is flagged as a generated artifact, not evidence by default](images/03-the-verified-brand-data-contract-fig-02.png)
+![A provenance-chain diagram tracing one strategic claim backward — the claim at the top descends through intermediate artifacts (a report, a template, a recipe run, a model summarization) down to a row of source documents; one descending link carries a visible break labelled "source not checked for date/methodology," and one lower node is flagged as a generated artifact, not evidence by default](../images/03-the-verified-brand-data-contract-fig-02.png)
 *Figure 3.3 — The broken provenance chain*
 
 <!-- → [CHART: A broken chain visualization — a claim at the top, with lines tracing back through intermediate artifacts to source documents. One line has a break labeled "source not checked for date/methodology." Another terminates in a generated artifact labeled "not evidence by default." Caption: The break does not invalidate the whole chain. It shows exactly where the human review needs to focus.] -->
@@ -148,21 +148,21 @@ Prompt suggestion: *"I have a piece of supporting evidence that is thin — here
 ## Prompts
 
 ### Figure 3.1 — Looks done vs is defensible
-**Files:** images/03-the-verified-brand-data-contract-fig-04.svg · d3/03-the-verified-brand-data-contract-fig-04.html
+**Files:** ../images/03-the-verified-brand-data-contract-fig-04.svg · ../d3/03-the-verified-brand-data-contract-fig-04.html
 **Prompt:** Render a brutalist two-column comparison split by a central ink boundary — left column "what polish conveys" (confidence, authority, recommendation) in secondary grey, right column "what defensibility requires" (source chain, transformation log, human adequacy judgment) in red to carry the weight. Three empty rounded rows per column. Hardcoded palette (ink #2a1a0e, red #C8102E, secondary #545454, border #D4D4D4, fill #F5F5F5, white #FFFFFF), no arrows, no icons.
 
 ### Figure 3.2 — The agentic supervision scaffold (shared with Chapter 2)
-**Files:** images/02-the-reallocation-principle-fig-03.svg · d3/02-the-reallocation-principle-fig-03.html
+**Files:** ../images/02-the-reallocation-principle-fig-03.svg · ../d3/02-the-reallocation-principle-fig-03.html
 **Prompt:** Reuse the Chapter 2 supervision-frame figure — a brutalist triangle of Scope, Approval, Verification nodes around a central red Accountable Output, with each corner's guiding question beside it and no implied sequence. Same hardcoded palette and conventions as Figure 2.3.
 
 ### Figure 3.3 — The broken provenance chain
-**Files:** images/03-the-verified-brand-data-contract-fig-02.svg · d3/03-the-verified-brand-data-contract-fig-02.html
+**Files:** ../images/03-the-verified-brand-data-contract-fig-02.svg · ../d3/03-the-verified-brand-data-contract-fig-02.html
 **Prompt:** Render a brutalist top-down provenance trace — a red claim node at the top descending through a report and a dashed-outline generated model summary down to source nodes; draw single-headed downward arrows, and break exactly one descending link with a visible gap and a red JetBrains Mono note "source not checked for date/methodology." Keep intact links solid; only the one break is interrupted. Hardcoded palette (claim/break #C8102E, intact links #2a1a0e, generated artifact #C8860E, sources #545454, white #FFFFFF).
 
 ### Figure 3.4 — The five epistemic-status labels
-**Files:** images/03-the-verified-brand-data-contract-fig-01.svg
+**Files:** ../images/03-the-verified-brand-data-contract-fig-01.svg
 **Prompt:** Render a brutalist taxonomy of five equal stacked boxes — raw data, verified data, generated artifact, approval record, report — each with a reserved definition slot. Colour encodes epistemic status not quality: neutral raw, supportive verified and approval record, cautionary generated artifact, dominant report. Hardcoded palette (ink #2a1a0e, red #C8102E for report, secondary #545454, ochre #C8860E for the generated-artifact caution band, border #D4D4D4, white #FFFFFF), no arrows, no ranking.
 
 ### Figure 3.5 — The recipe structure
-**Files:** images/03-the-verified-brand-data-contract-fig-03.svg
+**Files:** ../images/03-the-verified-brand-data-contract-fig-03.svg
 **Prompt:** Render a brutalist five-stage flowchart — Inputs, Steps, Outputs, an emphasized Gate, Log — connected by single forward arrows, with the Gate as the strongest red element and a thin connector from Gate to Log. Annotate agent-prepares near Inputs/Steps and human-crosses at the Gate. Hardcoded palette (Inputs/Steps/Outputs secondary #545454, Gate red #C8102E, Log ochre #C8860E, arrows #2a1a0e, white #FFFFFF), no literal door or lock imagery.

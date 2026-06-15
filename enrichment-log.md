@@ -32,7 +32,7 @@
 ## Invariants honored
 
 - No prose, headings, or exercises altered outside comment regions and the appended `## Prompts` sections.
-- No FIGURE comments removed. All image references resolve from the book root (`images/…`).
+- No FIGURE comments removed. All image references use `../images/…` (resolve from `chapters/`).
 
 ---
 *(This file supersedes an earlier auto-generated enrichment stub.)*

@@ -29,7 +29,7 @@ The gap between those two sentences is not hedging. It is accuracy. The first se
 
 *Table 5.1 — The verb is a claim about what the evidence can do. Most brand evidence lives in the top three rows.*
 
-![An ascending ladder mapping verb strength to the evidence each verb requires — seven rungs from the weakest correlational phrasing at the bottom up through suggesting, indicating, showing, demonstrating, to proving and asserting direct causation at the top — with a graduated single-hue progression and a band marking the lowest three rungs as where most brand evidence legitimately lives](images/05-verifying-brand-evidence-fig-01.png)
+![An ascending ladder mapping verb strength to the evidence each verb requires — seven rungs from the weakest correlational phrasing at the bottom up through suggesting, indicating, showing, demonstrating, to proving and asserting direct causation at the top — with a graduated single-hue progression and a band marking the lowest three rungs as where most brand evidence legitimately lives](../images/05-verifying-brand-evidence-fig-01.png)
 *Figure 5.3 — The verb-strength ladder*
 
 Brand and advertising work runs on partial evidence. A survey of 400 respondents. A sentiment analysis of social posts collected over 30 days. A competitive scan assembled by an AI agent from publicly available sources. This is not a failure of resources. It is the nature of the work — decisions must be made before certainty is available, often on tight timelines, with the best data that can be gathered in the time allowed. The professional move is not to demand perfect certainty before writing anything. It is to use verbs that match what you actually have.
@@ -50,7 +50,7 @@ Before you can assess what your evidence warrants, you need to know what kind of
 
 **Sample limits:** How large is it, and is it representative? Four hundred survey respondents can establish a pattern. They cannot establish that the pattern holds across a market. A sample of social posts is not a sample of consumers. These limits are not reasons to discard evidence; they are constraints on how far the conclusions can travel.
 
-![A two-axis quadrant map of evidence quality — the horizontal axis runs from narrow to broad coverage, the vertical axis from old to recent — dividing the field into four quadrants: top-right broad and recent (strongest claims), top-left broad and old (historical context only), bottom-right narrow and recent (local signal), bottom-left narrow and old (weakest); a note marks method quality and sample limits as a third dimension that can weaken even top-right evidence](images/05-verifying-brand-evidence-fig-02.png)
+![A two-axis quadrant map of evidence quality — the horizontal axis runs from narrow to broad coverage, the vertical axis from old to recent — dividing the field into four quadrants: top-right broad and recent (strongest claims), top-left broad and old (historical context only), bottom-right narrow and recent (local signal), bottom-left narrow and old (weakest); a note marks method quality and sample limits as a third dimension that can weaken even top-right evidence](../images/05-verifying-brand-evidence-fig-02.png)
 *Figure 5.1 — Evidence-quality quadrant map*
 
 <!-- → [DIAGRAM: Four-quadrant evidence quality map — axes labeled "Coverage (Narrow → Broad)" and "Recency (Old → Recent)" — four quadrants: top-right (broad + recent = strongest claims), top-left (broad + old = historical context only), bottom-right (narrow + recent = local signal), bottom-left (narrow + old = weakest claims) — annotated with example evidence types in each quadrant. Caption: Method quality and sample limits operate as a third dimension on this map; even recent, broad evidence from a flawed method produces weak claims.] -->
@@ -83,7 +83,7 @@ The practical output of evidence assessment is not a score or a rating. It is a 
 
 *Table 5.2 — The goal is not to move everything into Can say. The goal is to know which bucket each claim lives in before it appears in a recommendation.*
 
-![A four-bucket taxonomy sorting claims by what the evidence warrants — Can Say (conclusions the evidence directly and fully supports), Can Suggest (patterns worth flagging but not strong enough to recommend), Cannot Claim (conclusions the evidence does not support however confident they sound), and Needs Human Review (ambiguous cases requiring contextual judgment) — the four containers are equal in size to signal the goal is knowing which bucket each claim belongs in, not moving everything into Can Say](images/05-verifying-brand-evidence-fig-03.png)
+![A four-bucket taxonomy sorting claims by what the evidence warrants — Can Say (conclusions the evidence directly and fully supports), Can Suggest (patterns worth flagging but not strong enough to recommend), Cannot Claim (conclusions the evidence does not support however confident they sound), and Needs Human Review (ambiguous cases requiring contextual judgment) — the four containers are equal in size to signal the goal is knowing which bucket each claim belongs in, not moving everything into Can Say](../images/05-verifying-brand-evidence-fig-03.png)
 *Figure 5.4 — The four-list sort*
 
 The four lists are not a filter designed to strip conclusions from your analysis. They are a map of where your professional accountability lies. The "can say" conclusions you can defend. The "can suggest" conclusions you can flag as directional. The "cannot claim" conclusions you remove from recommendations. The "needs human review" conclusions you escalate rather than resolve by yourself.
@@ -119,7 +119,7 @@ The authoritativeness of the formatting is not evidence of the quality of the co
 
 The supervision question for evidence workflows is: has a named practitioner made an explicit assessment of what the evidence warrants? Not "has AI produced an analysis?" — that question answers itself. Has a human sorted the claims? Has someone written "cannot claim" next to the causal conclusion, or "needs review" next to the weak signal that is being used to drive a brief change?
 
-![A linear six-stage process flowchart — Data Collection, AI Analysis, Artifact Production, a prominently highlighted Gate (the human four-list sort), Warranted-Verb Rewrite, and Recommendation — with the early AI-assistable stages in one tone and the human-owned Gate and the steps after it in a dominant tone; an annotation beside the Gate notes that a named reviewer decides the list while the AI may only flag candidates](images/05-verifying-brand-evidence-fig-04.png)
+![A linear six-stage process flowchart — Data Collection, AI Analysis, Artifact Production, a prominently highlighted Gate (the human four-list sort), Warranted-Verb Rewrite, and Recommendation — with the early AI-assistable stages in one tone and the human-owned Gate and the steps after it in a dominant tone; an annotation beside the Gate notes that a named reviewer decides the list while the AI may only flag candidates](../images/05-verifying-brand-evidence-fig-04.png)
 *Figure 5.2 — Evidence workflow with the four-list gate*
 
 <!-- → [DIAGRAM: Evidence workflow with supervision gate — linear flow: Data Collection → AI Analysis → Artifact Production → [GATE: Human Four-List Sort] → Warranted-Verb Rewrite → Recommendation — gate node highlighted, annotated: "This step must be performed by a named reviewer. AI may flag candidates; human decides the list." Caption: The gate is not redundant with the AI analysis. It is the step that determines whether the analysis is professionally defensible.] -->
@@ -186,17 +186,17 @@ Take the "cannot claim" conclusions from Exercise 2. Ask the LLM to rewrite each
 ## Prompts
 
 ### Figure 5.1 — Evidence-quality quadrant map
-**Files:** images/05-verifying-brand-evidence-fig-02.svg · d3/05-verifying-brand-evidence-fig-02.html
+**Files:** ../images/05-verifying-brand-evidence-fig-02.svg · ../d3/05-verifying-brand-evidence-fig-02.html
 **Prompt:** Render a brutalist two-axis quadrant map — x-axis coverage narrow→broad, y-axis recency old→recent, both axes single lines with arrowheads toward the stronger end. Label four quadrants: top-right strongest (red), top-left historical, bottom-right local signal, bottom-left weakest (grey). Add a note that method quality and sample limits are a third dimension. Hardcoded palette (strongest #C8102E, secondary #545454, weakest #ADADAD, axes #2a1a0e, ochre #C8860E note, border #D4D4D4, fill #F5F5F5, white #FFFFFF), no scatter points, no gridlines beyond the two axes.
 
 ### Figure 5.2 — Evidence workflow with the four-list gate
-**Files:** images/05-verifying-brand-evidence-fig-04.svg · d3/05-verifying-brand-evidence-fig-04.html
+**Files:** ../images/05-verifying-brand-evidence-fig-04.svg · ../d3/05-verifying-brand-evidence-fig-04.html
 **Prompt:** Render a brutalist linear six-stage flowchart — Data Collection, AI Analysis, Artifact Production, an emphasized red Gate (human four-list sort), Warranted-Verb Rewrite, Recommendation — single-headed arrows throughout, the Gate the strongest node, with an annotation that a named reviewer decides the list while AI only flags candidates. Colour the AI-assistable early stages secondary grey and the human-owned Gate and later stages in ink/red. Hardcoded palette (AI #545454, Gate #C8102E, human #2a1a0e, arrows #2a1a0e, border #D4D4D4, white #FFFFFF), no door imagery.
 
 ### Figure 5.3 — The verb-strength ladder
-**Files:** images/05-verifying-brand-evidence-fig-01.svg
+**Files:** ../images/05-verifying-brand-evidence-fig-01.svg
 **Prompt:** Render a brutalist ascending ladder of seven rungs from weakest correlational phrasing at the bottom to direct causation at the top, each rung carrying a verb slot and an evidence-required slot, with a band marking the lowest three rungs as where most brand evidence lives. Use a graduated single-hue ramp (no red-green pairing); accent the top causal rung. Hardcoded palette (ramp from secondary #545454 up to ink #2a1a0e, top rung red #C8102E, band ochre #C8860E, border #D4D4D4, white #FFFFFF), no arrows between rungs, no rendered verb text.
 
 ### Figure 5.4 — The four-list sort
-**Files:** images/05-verifying-brand-evidence-fig-03.svg
+**Files:** ../images/05-verifying-brand-evidence-fig-03.svg
 **Prompt:** Render a brutalist four-bucket taxonomy as four equal containers — Can Say, Can Suggest, Cannot Claim, Needs Human Review — each with a header slot and a few empty internal claim slots, all equal in size to signal the goal is correct sorting, not maximizing Can Say. Encode warrant by tone. Hardcoded palette (Can Say #2a1a0e, Can Suggest #545454, Cannot Claim #C8102E, Needs Human Review #C8860E, border #D4D4D4, fill #F5F5F5, white #FFFFFF), no sequence arrows, no checkmarks, no rendered claim text.

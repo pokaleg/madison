@@ -27,7 +27,7 @@ This means that the question "is this a good post?" has two parts. One is a craf
 
 *Most content review processes stop at the left column. Provenance adds the right column — the evidence layer that makes a post defensible, not just polished.*
 
-![Two-column comparison pairing five craft dimensions on the left with their evidence-dimension counterparts on the right, showing the evidence layer extends rather than replaces the craft layer.](images/11-content-calendar-with-provenance-fig-01.png)
+![Two-column comparison pairing five craft dimensions on the left with their evidence-dimension counterparts on the right, showing the evidence layer extends rather than replaces the craft layer.](../images/11-content-calendar-with-provenance-fig-01.png)
 *Figure 11.1 — Two-part post evaluation*
 
 The evidence question is harder, which is why it usually does not get asked. A content calendar that requires every row to have a source, a proof reference, and an audience designation is more work to build than one that requires only copy and a publish date. It is also far more valuable — because it converts the calendar from a task list into a record of decisions, which means that six weeks into the campaign when a post gets questioned, the team can answer.
@@ -63,7 +63,7 @@ A content calendar row with provenance has more columns than the typical schedul
 
 *The second row should not exist in a calendar that is ready to execute. Each blank field is a decision that has not been made.*
 
-![Two stacked ten-cell calendar rows: a fully populated row above and a problem row below whose blank cells are marked as unmade decisions.](images/11-content-calendar-with-provenance-fig-02.png)
+![Two stacked ten-cell calendar rows: a fully populated row above and a problem row below whose blank cells are marked as unmade decisions.](../images/11-content-calendar-with-provenance-fig-02.png)
 *Figure 11.2 — The anatomy of a provenance row*
 
 The calendar is complete when every row has every column filled and every "draft" status has an owner who knows what needs to happen before it moves to "approved." It is not complete when every row has a piece of content in it.
@@ -78,7 +78,7 @@ What it will not have is provenance. The agent can fill in the logistical fields
 
 This creates a specific workflow discipline: use the agent to build the skeleton, then complete the provenance fields as a human act. The sequence matters. Running the agent first and then treating the output as a complete calendar is the failure mode — the fields left empty get filled with nothing, the approvals get assumed, and the calendar that looked like it was done is actually a draft with a scheduling interface laid on top of it.
 
-![Five-stage calendar build flow: human-set brief and pillars, an AI-assisted row-generation step, then human review, provenance completion, and approval — with unconnected rows discarded at the review stage.](images/11-content-calendar-with-provenance-fig-03.png)
+![Five-stage calendar build flow: human-set brief and pillars, an AI-assisted row-generation step, then human review, provenance completion, and approval — with unconnected rows discarded at the review stage.](../images/11-content-calendar-with-provenance-fig-03.png)
 *Figure 11.3 — Calendar build sequence*
 
 <!-- → [DIAGRAM: Calendar build sequence — five stages: (1) Brief → Message Pillars → Audience Evidence (human) → (2) Agent generates candidate rows (AI) → (3) Human reviews rows for strategic alignment, removes unconnected rows (human) → (4) Human completes provenance fields: source, owner, risk, CTA (human) → (5) Approval workflow: owner confirms, approver signs off (human) — annotated: stages 1, 3, 4, 5 are human-required; stage 2 is AI-assisted. Caption: The agent accelerates stage 2. It does not substitute for stages 3–5, where the decisions that make the calendar defensible get made.] -->
@@ -105,7 +105,7 @@ In each case, the risk flag does two things. It records that the condition was s
 
 *Risk flags are not reasons to cancel a post. They are records that the conditions were seen and a person made a decision.*
 
-![Five risk types — legal, timing, source recency, cultural, audience — each paired with the response it requires, with the legal/hold case marked as the one that can halt publication.](images/11-content-calendar-with-provenance-fig-04.png)
+![Five risk types — legal, timing, source recency, cultural, audience — each paired with the response it requires, with the legal/hold case marked as the one that can halt publication.](../images/11-content-calendar-with-provenance-fig-04.png)
 *Figure 11.4 — Risk flag types and responses*
 
 The risk flag column is also where the warranted-verb discipline from Chapter 5 connects to the content calendar. A post that makes a claim the evidence cannot support should either have the claim rewritten to match the evidence, or carry a risk flag noting the evidentiary limitation and a named approver who accepted that limitation. What it should not do is carry an unqualified claim without any record that its basis was examined.
@@ -182,17 +182,17 @@ Give the LLM a five-row calendar section and ask it to identify which rows lack 
 ## Prompts
 
 ### Figure 11.1 — Two-part post evaluation
-**Files:** images/11-content-calendar-with-provenance-fig-01.svg
+**Files:** ../images/11-content-calendar-with-provenance-fig-01.svg
 **Prompt:** Two-column comparison panel in the brutalist palette: five aligned rows pairing a craft dimension (left, neutral secondary) with its evidence-dimension counterpart (right, brand red), a vertical divider, and a thin tie across each pair so the evidence layer reads as extending rather than replacing craft. White canvas, EB Garamond title, Inter labels, no decorative color.
 
 ### Figure 11.2 — The anatomy of a provenance row
-**Files:** images/11-content-calendar-with-provenance-fig-02.svg
+**Files:** ../images/11-content-calendar-with-provenance-fig-02.svg
 **Prompt:** Structural schematic of two stacked ten-cell calendar rows on white: a fully populated row above and a problem row below whose blank cells are hatched to signal unmade decisions, column-aligned for immediate contrast. Ink hairlines, JetBrains Mono numerals, red used only to mark the blocking blank cells.
 
 ### Figure 11.3 — Calendar build sequence
-**Files:** images/11-content-calendar-with-provenance-fig-03.svg · d3/11-content-calendar-with-provenance-fig-03.html
+**Files:** ../images/11-content-calendar-with-provenance-fig-03.svg · ../d3/11-content-calendar-with-provenance-fig-03.html
 **Prompt:** Five-stage left-to-right flow on white: human stages in ink, the single AI-assisted row-generation stage in ochre, single-headed arrows, and a red dashed side-branch at the review stage discarding unconnected rows. Brutalist palette only, EB Garamond title, Inter labels, zero decorative fill.
 
 ### Figure 11.4 — Risk flag types and responses
-**Files:** images/11-content-calendar-with-provenance-fig-04.svg
+**Files:** ../images/11-content-calendar-with-provenance-fig-04.svg
 **Prompt:** Categorical mapping panel: five risk-type markers on the left each joined by a single-headed arrow to the response they require, with the legal/hold row in brand red to mark the one case that can halt publication and the remaining owner-decision rows in neutral ink. White canvas, Inter labels, no icons beyond simple glyphs.
