@@ -1,6 +1,6 @@
 <!--
   Pattern Work vs Judgment Work
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 02-the-reallocation-principle
   Figure 04
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
   <title id="fig-title-04">Pattern Work vs Judgment Work</title>
   <desc>Two equal columns separated by a divider. The left column lists pattern work an AI can assist with: drafting variants, headline generation, brief formatting, claim extraction, research summarization. The right column lists judgment work that must stay human: audience prioritization, claim approval, brand identity calls, campaign strategy, legal clearance. Neither column is superior; they are different kinds of work.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="04" figure-title="Pattern Work vs Judgment Work" figure-slug="pattern-work-vs-judgment-work" figure-type="comparison panels" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="04" figure-title="Pattern Work vs Judgment Work" figure-slug="pattern-work-vs-judgment-work" figure-type="comparison panels" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

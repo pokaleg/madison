@@ -1,6 +1,6 @@
 <!--
   Brief, Register, and the Gate Before Asset Work
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 07-the-creative-brief-builder
   Figure 03
   Type: process flowchart
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
   <title id="fig-title-03">Brief, Register, and the Gate Before Asset Work</title>
   <desc>A brief whose fields carry statuses feeds an assumption register listing every Inferred and Unknown field with an owner, then a gate, then asset generation. Two paths may cross the gate: gaps resolved, or risk explicitly accepted by a named person. A third forbidden path — proceeding by default with invisible gaps — is blocked.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="07-the-creative-brief-builder" figure-number="03" figure-title="Brief, Register, and the Gate Before Asset Work" figure-slug="brief-register-gate" figure-type="process flowchart" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/07-the-creative-brief-builder-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="07-the-creative-brief-builder" figure-number="03" figure-title="Brief, Register, and the Gate Before Asset Work" figure-slug="brief-register-gate" figure-type="process flowchart" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/07-the-creative-brief-builder-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

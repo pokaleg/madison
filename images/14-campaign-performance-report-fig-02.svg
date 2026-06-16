@@ -1,6 +1,6 @@
 <!--
   Title: KPI Map to Report Mapping
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 14-campaign-performance-report
   Figure 02
   Type: structural schematic
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
 <title id="fig-title-02">KPI Map to Report Mapping</title>
 <desc>Two aligned horizontal bands. The upper KPI-map band holds objective, metric, definition, baseline, target and decision use. The lower report band holds outcome reported, result, definition used, comparison point, target status and decision supported. A connector joins each pair; the target-status connector is heavier because an underperforming metric cannot be quietly dropped.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="14-campaign-performance-report" figure-number="02" figure-title="KPI Map to Report Mapping" figure-slug="kpi-map-to-report-mapping" figure-type="structural schematic" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/14-campaign-performance-report-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="14-campaign-performance-report" figure-number="02" figure-title="KPI Map to Report Mapping" figure-slug="kpi-map-to-report-mapping" figure-type="structural schematic" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/14-campaign-performance-report-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">KPI Map to Report Mapping</text>

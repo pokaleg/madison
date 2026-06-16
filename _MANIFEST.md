@@ -29,7 +29,7 @@
 | `prompts/` | CLI-agnostic prompt sets (source of truth; compiled by `scripts/build-prompts.mjs`). |
 | `brand/` | Brand strategy/identity working material (note: `brand/private-reflection.md` is private). |
 | `scripts/` | Executable code (conformance, build-instructions, build-prompts, manifest-check, to-markdown, …). |
-| `chapters/` | Manuscript — *Madison Plus One*. |
+| `chapters/` | Manuscript — *The Madison CLI Framework*. |
 | `data/raw/`, `data/verified/` | Two-layer data; nothing enters `verified/` unvalidated. |
 | `pantry/` | Provenance inputs (n8n-derived skill files + old shared contract). |
 | `reports/` | Report templates the recipes emit. |

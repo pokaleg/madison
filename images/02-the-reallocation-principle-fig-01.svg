@@ -1,6 +1,6 @@
 <!--
   The Five Work Types Flow
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 02-the-reallocation-principle
   Figure 01
   Type: cycle diagram
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
   <title id="fig-title-01">The Five Work Types Flow</title>
   <desc>Five stages of brand work in sequence — Execution, Evidence, Judgment, Approval, Learning — joined by forward arrows, with a curved feedback arrow from Learning back to Execution. Execution and Evidence are marked AI-assistable; Judgment, Approval, and Learning are human acts. The flow is linear within a campaign and cyclical across campaigns.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="01" figure-title="The Five Work Types Flow" figure-slug="the-five-work-types-flow" figure-type="cycle diagram" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="01" figure-title="The Five Work Types Flow" figure-slug="the-five-work-types-flow" figure-type="cycle diagram" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
     <marker id="arrowred" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#C8102E"/></marker>

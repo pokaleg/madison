@@ -1,6 +1,6 @@
 <!--
   Two Worlds: Same Sentence, Different Status
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 01-the-fluency-trap
   Figure 02
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
   <title id="fig-title-02">Two Worlds: Same Sentence, Different Status</title>
   <desc>Two equal panels. On the left, an identical claim rests on three evidence elements — a survey, a competitor analysis, and a sales note — joined by links. On the right, the same claim has nothing beneath it, plus a second equally smooth but unsupported claim. The headlines look identical; only what sits underneath differs.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="01-the-fluency-trap" figure-number="02" figure-title="Two Worlds: Same Sentence, Different Status" figure-slug="two-worlds-same-sentence-different-status" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/01-the-fluency-trap-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="01-the-fluency-trap" figure-number="02" figure-title="Two Worlds: Same Sentence, Different Status" figure-slug="two-worlds-same-sentence-different-status" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/01-the-fluency-trap-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

@@ -1,6 +1,6 @@
 <!--
   Title: The Recipe Input Chain
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 12-brand-consistency-and-voice-qa
   Figure 02
   Type: systems diagram
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
 <title id="fig-title-02">The Recipe Input Chain</title>
 <desc>A systems diagram of QA inputs. Brand rules and the voice guide feed review criteria, which the agent applies to touchpoints. An accessibility check runs in parallel and a claims/proof map feeds the evidentiary layer. All streams converge on the QA matrix, which closes at a human-decision gate. Missing inputs change the epistemic status of findings, not the process.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="12-brand-consistency-and-voice-qa" figure-number="02" figure-title="The Recipe Input Chain" figure-slug="the-recipe-input-chain" figure-type="systems diagram" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/12-brand-consistency-and-voice-qa-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="12-brand-consistency-and-voice-qa" figure-number="02" figure-title="The Recipe Input Chain" figure-slug="the-recipe-input-chain" figure-type="systems diagram" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/12-brand-consistency-and-voice-qa-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The Recipe Input Chain</text>

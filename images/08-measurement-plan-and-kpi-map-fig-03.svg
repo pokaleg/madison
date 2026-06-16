@@ -1,6 +1,6 @@
 <!--
   The KPI Map Structure (Core Columns)
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 08-measurement-plan-and-kpi-map
   Figure 03
   Type: structural schematic
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
   <title id="fig-title-03">The KPI Map Structure — Core Columns</title>
   <desc>An empty seven-column KPI map template: Metric, Definition, Baseline, Target, Cadence, an emphasized Decision Use column, and a Sign-off column accented as the accountability record of who approved the metric before the campaign ran. Body cells are blank so the schematic reads as a reusable template.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="08-measurement-plan-and-kpi-map" figure-number="03" figure-title="The KPI Map Structure (Core Columns)" figure-slug="kpi-map-structure-core-columns" figure-type="structural schematic" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/08-measurement-plan-and-kpi-map-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="08-measurement-plan-and-kpi-map" figure-number="03" figure-title="The KPI Map Structure (Core Columns)" figure-slug="kpi-map-structure-core-columns" figure-type="structural schematic" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/08-measurement-plan-and-kpi-map-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

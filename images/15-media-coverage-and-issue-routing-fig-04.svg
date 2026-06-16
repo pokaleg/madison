@@ -1,6 +1,6 @@
 <!--
   Title: The Response Gate
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 15-media-coverage-and-issue-routing
   Figure 04
   Type: process flowchart
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
 <title id="fig-title-04">The Response Gate</title>
 <desc>A five-stage flow: signal detected, digest entry created, owner reviews, response authorized, response sent. A gate line between owner review and authorization marks the human-decision boundary. Above it are agent-capable actions: monitor, classify, summarize, draft candidates. Below it are human-required actions: severity confirmation, escalation path, response content, timing.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="15-media-coverage-and-issue-routing" figure-number="04" figure-title="The Response Gate" figure-slug="the-response-gate" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/15-media-coverage-and-issue-routing-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="15-media-coverage-and-issue-routing" figure-number="04" figure-title="The Response Gate" figure-slug="the-response-gate" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/15-media-coverage-and-issue-routing-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The Response Gate</text>

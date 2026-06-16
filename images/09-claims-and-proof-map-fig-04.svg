@@ -1,6 +1,6 @@
 <!--
   Evidence Boundary
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 09-claims-and-proof-map
   Figure 04
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
   <title id="fig-title-04">Evidence Boundary</title>
   <desc>Three zones separate the inputs to a claims audit by who is accountable. The verified-evidence zone holds source documents, metrics, testimonials, screenshots, and approved boilerplate. The model-judgment zone holds claim classification and rewrite suggestions. A heavier divider marks the phase gate before the human-judgment zone, which holds risk tolerance, brand fit, and final copy approval. The model prepares; the human signs.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="09-claims-and-proof-map" figure-number="04" figure-title="Evidence Boundary" figure-slug="evidence-boundary" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/09-claims-and-proof-map-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="09-claims-and-proof-map" figure-number="04" figure-title="Evidence Boundary" figure-slug="evidence-boundary" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/09-claims-and-proof-map-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

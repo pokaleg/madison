@@ -5,7 +5,7 @@
 > narrative and raw tool output out. Full history: `logs/RUN_LOG.md`.
 
 ## Goal (one line)
-Keep Madison (a Snickerdoodle branding/marketing domain) current; finish the *Madison Plus One* manuscript.
+Keep Madison (a Snickerdoodle branding/marketing domain) current; finish the *The Madison CLI Framework* manuscript.
 
 ## State now — 2026-06-15
 - **Done:** Repo brought up to the CLI-agnostic standard — portable layer (`_MANIFEST.md`, `.ai/manifest.yaml`, `PROJECT_RULES.md`, `status.md`, this file); CLI-agnostic tool shims generated from `instructions/` (Gemini/Aider/Copilot/Cursor + AGENTS/CLAUDE); `scripts/manifest-check.mjs` wired into `npm run verify` and CI; `eval/` §19 harness ported. All three siblings (Mycroft, the-reallocation-engine, Madison) now match.

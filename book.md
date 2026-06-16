@@ -10,7 +10,7 @@
     git history, not in this file.
 -->
 
-# Madison Plus One
+# The Madison CLI Framework
 
 **Author:** Humanitarians AI
 

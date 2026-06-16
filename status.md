@@ -15,7 +15,7 @@ _Read this first for current state._ `DOMAIN.md` = what the repo **is**; `logs/R
 
 ## Where things stand
 - **Domain:** Madison is a Snickerdoodle branding & marketing-intelligence domain (governed by `SNICKERDOODLE.md`), alongside the-reallocation-engine.
-- **Manuscript:** *Madison Plus One* — top-level TIKTOC chapters `chapters/01`–`16` + `97` written (coherent first-pass drafts; editorial expansion pending).
+- **Manuscript:** *The Madison CLI Framework* — top-level TIKTOC chapters `chapters/01`–`16` + `97` written (coherent first-pass drafts; editorial expansion pending).
 - **Operating surface:** 48 recipes (monitor/pipeline, agent, brand, student-project); two-layer `data/raw` → `data/verified` (real, not roadmap).
 - **Prompts:** CLI-agnostic prompt sets under `prompts/` (source of truth; compiled by `scripts/build-prompts.mjs`).
 - **Context architecture:** `AGENTS.md`/`CLAUDE.md` compile from `instructions/`; portable layer (`_MANIFEST.md`, `.ai/manifest.yaml`, `PROJECT_RULES.md`, this file) + CLI-agnostic tool shims now in place.

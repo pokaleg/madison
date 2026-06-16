@@ -11,7 +11,7 @@
     enforced by /c2 when chapters are actually drafted.
 -->
 
-# Madison Plus One — Chapter Specifications
+# The Madison CLI Framework — Chapter Specifications
 
 **Author:** Humanitarians AI
 

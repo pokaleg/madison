@@ -7,7 +7,7 @@
     learning architecture commands. Do not delete the header signature.
 -->
 
-# Madison Plus One — Learning Architecture
+# The Madison CLI Framework — Learning Architecture
 
 **Author:** Nik Bear Brown
 

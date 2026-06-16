@@ -1,6 +1,6 @@
 <!--
   Title: Risk Flag Types and Responses
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 11-content-calendar-with-provenance
   Figure 04
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
 <title id="fig-title-04">Risk Flag Types and Responses</title>
 <desc>Five rows mapping a content-row risk type to the response it triggers. The legal claim-under-review row, drawn in the highlight color, can hold publication; the other four are owner-decision rows requiring judgment but not an automatic stop. A risk flag records a seen condition and a decision, never a cancellation.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="11-content-calendar-with-provenance" figure-number="04" figure-title="Risk Flag Types and Responses" figure-slug="risk-flag-types-and-responses" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/11-content-calendar-with-provenance-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="11-content-calendar-with-provenance" figure-number="04" figure-title="Risk Flag Types and Responses" figure-slug="risk-flag-types-and-responses" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/11-content-calendar-with-provenance-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Risk Flag Types and Responses</text>

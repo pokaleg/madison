@@ -1,6 +1,6 @@
 <!--
   Title: Two-Part Post Evaluation
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 11-content-calendar-with-provenance
   Figure 01
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
 <title id="fig-title-01">Two-Part Post Evaluation</title>
 <desc>A two-column comparison. The left column lists five craft dimensions a typical content review stops at; the right column lists the matching evidence dimensions provenance adds. Each craft row ties across to its evidence counterpart, showing evidence extends rather than replaces craft.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="11-content-calendar-with-provenance" figure-number="01" figure-title="Two-Part Post Evaluation" figure-slug="two-part-post-evaluation" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/11-content-calendar-with-provenance-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="11-content-calendar-with-provenance" figure-number="01" figure-title="Two-Part Post Evaluation" figure-slug="two-part-post-evaluation" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/11-content-calendar-with-provenance-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Two-Part Post Evaluation</text>

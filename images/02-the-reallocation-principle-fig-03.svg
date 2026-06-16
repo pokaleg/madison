@@ -1,6 +1,6 @@
 <!--
   The Supervision Frame
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 02-the-reallocation-principle
   Figure 03
   Type: systems diagram
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
   <title id="fig-title-03">The Supervision Frame</title>
   <desc>A triangle of three concurrent supervision questions surrounding a central accountable output. Scope asks what the agent was allowed to do. Approval asks who decides whether the output moves forward. Verification asks what evidence supports the claim. The three corners reinforce one another rather than running in sequence.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="03" figure-title="The Supervision Frame" figure-slug="the-supervision-frame" figure-type="systems diagram" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="03" figure-title="The Supervision Frame" figure-slug="the-supervision-frame" figure-type="systems diagram" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

@@ -1,6 +1,6 @@
 <!--
   Title: Run Gate Decision Record
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 16-the-build-and-the-honest-run
   Figure 03
   Type: structural schematic
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
 <title id="fig-title-03">Run Gate Decision Record</title>
 <desc>One run-gate-decision-record row as six adjacent cells: gate, decision type, evidence state at decision, open items, decision owner and timestamp. The decision-type cell holds a four-state indicator for proceed, conditional, hold and close with findings. Evidence state and open items are bracketed together; the owner cell carries an accountability marker.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="16-the-build-and-the-honest-run" figure-number="03" figure-title="Run Gate Decision Record" figure-slug="run-gate-decision-record" figure-type="structural schematic" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/16-the-build-and-the-honest-run-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="16-the-build-and-the-honest-run" figure-number="03" figure-title="Run Gate Decision Record" figure-slug="run-gate-decision-record" figure-type="structural schematic" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/16-the-build-and-the-honest-run-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Run Gate Decision Record</text>

@@ -22,7 +22,7 @@ This repo is organized by function and audience.
 
 ## Manuscript
 
-- `chapters/` - top-level Madison Plus One manuscript files.
+- `chapters/` - top-level The Madison CLI Framework manuscript files.
 - `chapters/branding-and-ai/` - Branding and AI chapter set.
   with case studies.
 - `chapters/principles-marketing/` - principles of marketing chapter set.

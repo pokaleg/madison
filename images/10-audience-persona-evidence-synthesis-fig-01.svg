@@ -1,6 +1,6 @@
 <!--
   Evidence Rows to Warranted Claims
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 10-audience-persona-evidence-synthesis
   Figure 01
   Type: process flowchart
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
   <title id="fig-title-01">Evidence Rows to Warranted Claims</title>
   <desc>Raw audience observations from interviews, surveys, support tickets, CRM, sales, and social comments are labeled with source and confidence, then pass through four operations — clustering, confidence labeling, contradiction handling, and exclusion. Exclusion diverts unsourced details down into an excluded-assumptions parking lane. The main flow ends in warranted claims feeding an audience brief.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="10-audience-persona-evidence-synthesis" figure-number="01" figure-title="Evidence Rows to Warranted Claims" figure-slug="evidence-rows-to-warranted-claims" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/10-audience-persona-evidence-synthesis-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="10-audience-persona-evidence-synthesis" figure-number="01" figure-title="Evidence Rows to Warranted Claims" figure-slug="evidence-rows-to-warranted-claims" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/10-audience-persona-evidence-synthesis-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

@@ -1,6 +1,6 @@
 <!--
   Title: Issue Taxonomy Decision Tree
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 15-media-coverage-and-issue-routing
   Figure 02
   Type: process flowchart
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
 <title id="fig-title-02">Issue Taxonomy Decision Tree</title>
 <desc>A decision tree classifying an incoming monitoring signal into one of seven issue classes. Five cascading yes/no tests route the signal to factual error, product complaint, reputation risk, crisis signal or competitive mention; if all are no it falls through to neutral or positive coverage. Crisis signal and reputation risk are high-stakes; neutral/positive is the benign terminus.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="15-media-coverage-and-issue-routing" figure-number="02" figure-title="Issue Taxonomy Decision Tree" figure-slug="issue-taxonomy-decision-tree" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/15-media-coverage-and-issue-routing-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="15-media-coverage-and-issue-routing" figure-number="02" figure-title="Issue Taxonomy Decision Tree" figure-slug="issue-taxonomy-decision-tree" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/15-media-coverage-and-issue-routing-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Issue Taxonomy Decision Tree</text>

@@ -12,7 +12,7 @@
     don't let them drift.
 -->
 
-# Madison Plus One — Outline
+# The Madison CLI Framework — Outline
 
 **Author:** Humanitarians AI
 

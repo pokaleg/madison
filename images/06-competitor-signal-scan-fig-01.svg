@@ -1,6 +1,6 @@
 <!--
   The Competitor Matrix (Core Columns)
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 06-competitor-signal-scan
   Figure 01
   Type: structural schematic
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
   <title id="fig-title-01">The Competitor Matrix — Core Columns</title>
   <desc>An empty seven-column observation template: Source and Capture Date grouped as the provenance pair, then Primary Claim, Proof Offered, CTA, Audience Signal, and an accented Contradiction Flag. Body cells are left blank so the schematic reads as a reusable template, not a filled example.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="06-competitor-signal-scan" figure-number="01" figure-title="The Competitor Matrix (Core Columns)" figure-slug="competitor-matrix-core-columns" figure-type="structural schematic" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/06-competitor-signal-scan-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="06-competitor-signal-scan" figure-number="01" figure-title="The Competitor Matrix (Core Columns)" figure-slug="competitor-matrix-core-columns" figure-type="structural schematic" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/06-competitor-signal-scan-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

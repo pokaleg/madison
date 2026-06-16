@@ -1,6 +1,6 @@
 <!--
   Title: The Four Gate Decision Types
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 16-the-build-and-the-honest-run
   Figure 02
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
 <title id="fig-title-02">The Four Gate Decision Types</title>
 <desc>Four panels for the gate decision types: proceed is a clean forward arrow; conditional proceed carries a small open-items marker forward; hold stops at a barrier naming the blocker; close with findings is a terminal node with a side branch depositing open questions into future work. None of these is a failure.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="16-the-build-and-the-honest-run" figure-number="02" figure-title="The Four Gate Decision Types" figure-slug="the-four-gate-decision-types" figure-type="comparison panels" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/16-the-build-and-the-honest-run-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="16-the-build-and-the-honest-run" figure-number="02" figure-title="The Four Gate Decision Types" figure-slug="the-four-gate-decision-types" figure-type="comparison panels" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/16-the-build-and-the-honest-run-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
 <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#545454"/></marker></defs>
 

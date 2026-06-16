@@ -1,6 +1,6 @@
 # Madison Documentation
 
-This directory is the human-facing documentation hub for the Madison Plus One
+This directory is the human-facing documentation hub for the Madison CLI Framework
 book and agentic marketing framework repository.
 
 Madison has two connected products:

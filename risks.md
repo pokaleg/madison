@@ -7,7 +7,7 @@
     scope and market commands. Do not delete the header signature.
 -->
 
-# Madison Plus One — Scope, Market, and Risk
+# The Madison CLI Framework — Scope, Market, and Risk
 
 **Author:** Nik Bear Brown
 

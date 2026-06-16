@@ -1,6 +1,6 @@
-# Madison Plus One
+# The Madison CLI Framework
 
-*AI+1, Hands on. Domain specific. No generic prompts.*
+*How Marketers, Founders, and Brand Strategists Keep Judgment When AI Makes Execution Free*
 
 **Author:** Nik Bear Brown, Nina Harris, and Humanitarians AI · **Publisher:** Humanitarians AI · **Edition:** 2026
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The first sign of trouble in brand work is usually not failure — it is fluency. AI will hand you a confident positioning statement, a clean archetype rationale, a competitor teardown, and a working landing page in seconds, and none of it announces which claims are sourced, which position is already taken, or who is accountable when it reaches a customer. *Madison Plus One* is about the gap between a polished brand artifact and a trustworthy one.
+The first sign of trouble in brand work is usually not failure — it is fluency. AI will hand you a confident positioning statement, a clean archetype rationale, a competitor teardown, and a working landing page in seconds, and none of it announces which claims are sourced, which position is already taken, or who is accountable when it reaches a customer. *The Madison CLI Framework* is about the gap between a polished brand artifact and a trustworthy one.
 
 The book's central argument is testable and meant to be argued with: **AI makes brand execution cheaper, but it does not make brand judgment cheap.** Execution is producing the artifact; judgment is deciding whether it should exist, whether its claims hold, what it leaves out, and who owns the consequences. When execution collapses to near-zero cost, judgment becomes the whole job. The book teaches a working method for that judgment — friction as a mechanism, the phase gate where AI stops and accountability begins, provenance over polish, warranted verbs, and the open **Madison framework** in which AI extracts and drafts while humans frame, check, decide, and approve.
 

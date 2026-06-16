@@ -1,6 +1,6 @@
-# DOMAIN — Madison Plus One
+# DOMAIN — The Madison CLI Framework
 
-**Domain:** branding and marketing intelligence — monitor pipelines (brand reputation, market signals, accessibility standards, hiring signals), content and concierge agents, and student-built intelligence projects; plus the *Madison Plus One* book manuscript and course materials (Branding & AI; INFO 7375; Principles of Marketing).
+**Domain:** branding and marketing intelligence — monitor pipelines (brand reputation, market signals, accessibility standards, hiring signals), content and concierge agents, and student-built intelligence projects; plus the *The Madison CLI Framework* book manuscript and course materials (Branding & AI; INFO 7375; Principles of Marketing).
 **Governed by:** `SNICKERDOODLE.md` (read it first — Madison is a Snickerdoodle domain, the second instance after the-reallocation-engine). This file states what is specific to this repository.
 
 ## What this domain does

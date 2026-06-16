@@ -1,6 +1,6 @@
 <!--
   The Broken Provenance Chain
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 03-the-verified-brand-data-contract
   Figure 02
   Type: process flowchart
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
   <title id="fig-title-02">The Broken Provenance Chain</title>
   <desc>A single strategic claim traced downward through intermediate artifacts — a report, a recipe run, and a model summarization — to source documents. One descending link is broken to show where the chain fails: a source never checked for date or methodology. The break localizes where human review must focus; the intact links remain solid.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="03-the-verified-brand-data-contract" figure-number="02" figure-title="The Broken Provenance Chain" figure-slug="the-broken-provenance-chain" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/03-the-verified-brand-data-contract-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="03-the-verified-brand-data-contract" figure-number="02" figure-title="The Broken Provenance Chain" figure-slug="the-broken-provenance-chain" figure-type="process flowchart" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/03-the-verified-brand-data-contract-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

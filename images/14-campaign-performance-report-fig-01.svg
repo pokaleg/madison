@@ -1,6 +1,6 @@
 <!--
   Title: The Three Layers of a Performance Report
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 14-campaign-performance-report
   Figure 01
   Type: hierarchy/taxonomy
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
 <title id="fig-title-01">The Three Layers of a Performance Report</title>
 <desc>A vertical three-tier stack built from foundation to apex: description at the base, interpretation in the middle, recommendation at the top. Each tier names what it contains and who is accountable, shifting from machine-assisted at the base to human-owned at the top. A boundary line marks the accountability shift between interpretation and recommendation.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="14-campaign-performance-report" figure-number="01" figure-title="The Three Layers of a Performance Report" figure-slug="the-three-layers-of-a-performance-report" figure-type="hierarchy/taxonomy" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/14-campaign-performance-report-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="14-campaign-performance-report" figure-number="01" figure-title="The Three Layers of a Performance Report" figure-slug="the-three-layers-of-a-performance-report" figure-type="hierarchy/taxonomy" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/14-campaign-performance-report-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The Three Layers of a Performance Report</text>

@@ -1,6 +1,6 @@
 <!--
   Observation Layer vs Implication Layer
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 06-competitor-signal-scan
   Figure 03
   Type: systems diagram
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
   <title id="fig-title-03">Observation Layer vs Implication Layer</title>
   <desc>Two stacked bands. The lower observation layer holds sourced, dated, directly observed signals where every entry traces to a source. A gate line separates it from the upper implication layer of labeled interpretations marked as candidate, not finding. A single arrow rises through the gate; the same observation can support several competing interpretations, so the crossing is a human decision.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="06-competitor-signal-scan" figure-number="03" figure-title="Observation Layer vs Implication Layer" figure-slug="observation-vs-implication-layer" figure-type="systems diagram" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/06-competitor-signal-scan-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="06-competitor-signal-scan" figure-number="03" figure-title="Observation Layer vs Implication Layer" figure-slug="observation-vs-implication-layer" figure-type="systems diagram" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/06-competitor-signal-scan-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

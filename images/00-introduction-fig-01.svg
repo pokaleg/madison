@@ -1,6 +1,6 @@
 <!--
   The Execution–Judgment Boundary
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 00-introduction
   Figure 01
   Type: conceptual map
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
   <title id="fig-title-01">The Execution–Judgment Boundary</title>
   <desc>Two regions separated by a central boundary. The left region is execution, producing an artifact cheaply and fast. The right region is judgment, where accountability concentrates. One arrow crosses the boundary, showing an artifact must pass into judgment before it can be trusted.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="00-introduction" figure-number="01" figure-title="The Execution–Judgment Boundary" figure-slug="the-execution-judgment-boundary" figure-type="conceptual map" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/00-introduction-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="00-introduction" figure-number="01" figure-title="The Execution–Judgment Boundary" figure-slug="the-execution-judgment-boundary" figure-type="conceptual map" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/00-introduction-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

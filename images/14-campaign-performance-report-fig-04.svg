@@ -1,6 +1,6 @@
 <!--
   Title: Caveat Placement Guide
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 14-campaign-performance-report
   Figure 04
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
 <title id="fig-title-04">Caveat Placement Guide</title>
 <desc>Five report limitations connected to where each caveat belongs within a report column. Sample size sits below the metric result, confound in the interpretation section, source lag in data sources, attribution as a standing caveat in the executive summary, and baseline mismatch below the baseline comparison. Caveats belong adjacent to the claims they qualify.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="14-campaign-performance-report" figure-number="04" figure-title="Caveat Placement Guide" figure-slug="caveat-placement-guide" figure-type="comparison panels" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/14-campaign-performance-report-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="14-campaign-performance-report" figure-number="04" figure-title="Caveat Placement Guide" figure-slug="caveat-placement-guide" figure-type="comparison panels" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/14-campaign-performance-report-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Caveat Placement Guide</text>

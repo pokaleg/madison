@@ -1,6 +1,6 @@
 <!--
   Time Reallocation: Current vs Reallocated Week
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 02-the-reallocation-principle
   Figure 02
   Type: statistical/quantitative
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-02">
   <title id="fig-title-02">Time Reallocation: Current vs Reallocated Week</title>
   <desc>Two horizontal stacked bars of equal length comparing a brand team's week. The current week is dominated by Execution at sixty percent. The reallocated week compresses Execution to thirty percent and expands Judgment and Learning. Each segment keeps a consistent colour across both bars. Values are illustrative.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="02" figure-title="Time Reallocation: Current vs Reallocated Week" figure-slug="time-reallocation-current-vs-reallocated-week" figure-type="statistical/quantitative" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="02-the-reallocation-principle" figure-number="02" figure-title="Time Reallocation: Current vs Reallocated Week" figure-slug="time-reallocation-current-vs-reallocated-week" figure-type="statistical/quantitative" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/02-the-reallocation-principle-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

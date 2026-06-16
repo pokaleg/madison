@@ -1,6 +1,6 @@
 <!--
   Title: The Go/No-Go Decision Gate
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 13-launch-readiness-and-trafficking-qa
   Figure 03
   Type: process flowchart
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
 <title id="fig-title-03">The Go/No-Go Decision Gate</title>
 <desc>A go/no-go flow that does not reduce to a checkbox count. A classified blocker list reaches a single named approver who asks whether the remaining risk is acceptable. Two paradox paths feed it: all-clear-but-not-ready, and minor-unresolved-but-ready. Outcomes are go (recorded), hold, and a blocking terminus for a misaligned claim or unidentified approver.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="13-launch-readiness-and-trafficking-qa" figure-number="03" figure-title="The Go/No-Go Decision Gate" figure-slug="the-go-no-go-decision-gate" figure-type="process flowchart" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/13-launch-readiness-and-trafficking-qa-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="13-launch-readiness-and-trafficking-qa" figure-number="03" figure-title="The Go/No-Go Decision Gate" figure-slug="the-go-no-go-decision-gate" figure-type="process flowchart" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/13-launch-readiness-and-trafficking-qa-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The Go / No-Go Decision Gate</text>

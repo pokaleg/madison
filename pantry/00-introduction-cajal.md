@@ -1,4 +1,4 @@
-# CAJAL Figure Report — Introduction (Madison Plus One)
+# CAJAL Figure Report — Introduction (The Madison CLI Framework)
 _Density: recommend 1 figure, Foundational._
 
 The Introduction is short and conceptual. It carries one load-bearing distinction worth a figure: the boundary between execution (producing an artifact) and judgment (deciding whether the artifact should exist, is right, fits, and who is accountable). This is the book's recurring concept and earns a single conceptual-map figure. The organizational list of chapters and the "how to read" guidance are navigational, not data-bearing, and need no figure.

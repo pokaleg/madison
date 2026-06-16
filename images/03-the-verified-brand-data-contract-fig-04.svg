@@ -1,6 +1,6 @@
 <!--
   Looks Done vs Is Defensible
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 03-the-verified-brand-data-contract
   Figure 04
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-04">
   <title id="fig-title-04">Looks Done vs Is Defensible</title>
   <desc>Two equal columns divided by the professional boundary that polish tends to obscure. The left column lists what a finished-looking report conveys: confidence, authority, recommendation. The right column lists what it actually requires to be defensible: a source chain, a transformation log, and a human adequacy judgment. The left is not worthless, only insufficient.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="03-the-verified-brand-data-contract" figure-number="04" figure-title="Looks Done vs Is Defensible" figure-slug="looks-done-vs-is-defensible" figure-type="comparison panels" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/03-the-verified-brand-data-contract-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="03-the-verified-brand-data-contract" figure-number="04" figure-title="Looks Done vs Is Defensible" figure-slug="looks-done-vs-is-defensible" figure-type="comparison panels" priority="Supplementary" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/03-the-verified-brand-data-contract-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

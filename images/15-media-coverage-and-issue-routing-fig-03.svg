@@ -1,6 +1,6 @@
 <!--
   Title: Severity Factors for Media Signals
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 15-media-coverage-and-issue-routing
   Figure 03
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-03">
 <title id="fig-title-03">Severity Factors for Media Signals</title>
 <desc>A balanced two-column comparison with a central fulcrum. The left column lists factors that raise a media signal's severity; the right column lists their mirrors that lower it. Severity is a structured weighing of these forces, not a feeling.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="15-media-coverage-and-issue-routing" figure-number="03" figure-title="Severity Factors for Media Signals" figure-slug="severity-factors-for-media-signals" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/15-media-coverage-and-issue-routing-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="15-media-coverage-and-issue-routing" figure-number="03" figure-title="Severity Factors for Media Signals" figure-slug="severity-factors-for-media-signals" figure-type="comparison panels" priority="Important" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/15-media-coverage-and-issue-routing-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">Severity Factors for Media Signals</text>

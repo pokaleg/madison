@@ -8,7 +8,7 @@
     uses it to detect Tic TOC-managed content.
 -->
 
-# Madison Plus One — Vision
+# The Madison CLI Framework — Vision
 
 **Author:** Humanitarians AI
 

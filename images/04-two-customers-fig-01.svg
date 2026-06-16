@@ -1,6 +1,6 @@
 <!--
   The Two Customers of a Recipe
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 04-two-customers
   Figure 01
   Type: comparison panels
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
   <title id="fig-title-01">The Two Customers of a Recipe</title>
   <desc>Two equal columns joined by a shared spine, showing the two customers every recipe must serve at once. The executing agent needs explicit inputs, a clear transformation, an output schema, and graceful anomaly handling. The human maintainer needs the purpose, the decision it supports, the review point and its meaning, and the ability to modify the recipe. Their needs are partly in tension.</desc>
-  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="04-two-customers" figure-number="01" figure-title="The Two Customers of a Recipe" figure-slug="the-two-customers-of-a-recipe" figure-type="comparison panels" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/04-two-customers-cajal.md"/></metadata>
+  <metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="04-two-customers" figure-number="01" figure-title="The Two Customers of a Recipe" figure-slug="the-two-customers-of-a-recipe" figure-type="comparison panels" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/04-two-customers-cajal.md"/></metadata>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker>
   </defs>

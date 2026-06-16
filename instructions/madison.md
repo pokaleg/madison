@@ -28,7 +28,7 @@ WHAT YOU CAN DO
              1 -> 1A -> 2 -> 3 -> 5 -> 5A -> 5B -> 6A -> 7 -> 8 -> 9 -> 10 -> Final
   scripts    conformance · to-markdown · build-prompts · build-resume · contrast-check ·
              deck-trace · build-pitch · a5b-verify · assignment6-build-pdf · build-deck
-  book       The "Madison Plus One" manuscript: chapters/
+  book       The "The Madison CLI Framework" manuscript: chapters/
   data       Two-layer: data/raw -> data/verified (nothing enters verified unvalidated)
 
 HOW IT WORKS

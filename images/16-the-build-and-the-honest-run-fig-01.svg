@@ -1,6 +1,6 @@
 <!--
   Title: The Honest Run Output Package
-  Book: Madison Plus One
+  Book: The Madison CLI Framework
   Chapter: 16-the-build-and-the-honest-run
   Figure 01
   Type: systems diagram
@@ -10,7 +10,7 @@
 <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig-title-01">
 <title id="fig-title-01">The Honest Run Output Package</title>
 <desc>Six artifacts of a complete honest-run output package arranged around a bounded-project core: run log, evidence appendix, report, gate decision record, portfolio note and reflection. The run log is the auditable spine; the evidence appendix feeds the report; the report is the one artifact that crosses the phase gate to an external audience; the reflection pairs with the log.</desc>
-<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="Madison Plus One" book-slug="madison" chapter="16-the-build-and-the-honest-run" figure-number="01" figure-title="The Honest Run Output Package" figure-slug="the-honest-run-output-package" figure-type="systems diagram" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/16-the-build-and-the-honest-run-cajal.md"/></metadata>
+<metadata><cajal:figure xmlns:cajal="https://bearbrown.ai/cajal/1.0" book="The Madison CLI Framework" book-slug="madison" chapter="16-the-build-and-the-honest-run" figure-number="01" figure-title="The Honest Run Output Package" figure-slug="the-honest-run-output-package" figure-type="systems diagram" priority="Critical" author="Humanitarians AI Incorporated" date-generated="2026-06-15" source-file="pantry/16-the-build-and-the-honest-run-cajal.md"/></metadata>
 <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2a1a0e"/></marker></defs>
 
 <text x="350" y="40" text-anchor="middle" font-family="'EB Garamond','Garamond',Georgia,serif" font-size="14" fill="#2a1a0e">The Honest Run Output Package</text>
