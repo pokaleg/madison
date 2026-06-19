@@ -1,40 +1,79 @@
-# gaps.md — what the credibility is meant to earn
+# gaps.md — Gayatri Pokale
+# Exercise 1 — INFO 7375
+# Last updated: 2026-06-19
+# Rule: a gap closes only when evidence ships → new resume.json entry → row deleted
 
-These did **not** qualify for `brand.yml` — no `resume.json` proof backs them yet.
-They are aspirations, not attributes. Per Exercise 1, every gap maps to the Madison
-build that would close it. The order matters: credibility first, influence as the
-dividend.
+## How to read this file
+Each row maps a gap to a Madison build that would close it.
+A gap without a Madison build is self-improvement, not a portfolio piece.
+The top row is the Assignment 1 Part 2 project proposal.
 
-## Aspirational outcomes (chase credibility; these follow)
+---
 
-| Gap | Why it's a gap (no proof) | The build that closes it |
-|---|---|---|
-| **"Widely known / AI influencer"** | Reach is the `_excluded_drift` your own resume.json threw out — true today, false next week. It's an outcome, not a position. | A **content/distribution recipe** (the `content-agent` / `marketmind` family) that turns each shipped tool + paper into credibility-bearing posts. **Learn Mollick's distribution + plain-language translation — that's the verifiable skill behind the reach you want; bolt it onto proof he doesn't have.** Reach is the dividend, measured but never claimed. |
-| **Respected by company boards** | Resume shows "advisor to a few AI start-ups" + opinion essays — commentary, not board standing. | A **board-credibility tracker**: log advisory roles, talks-to-boards, AI-risk briefs actually delivered. When the log has entries, it graduates to `resume.json`, then `brand.yml`. |
-| **Standing with policy experts** | "Against Platform Deference," the encyclical piece — published opinion, not credentialed policy work. | A **policy-evidence pipeline**: cited testimony, working-group membership, a verification standard others adopt. Earn the entries, then promote. |
+## Gap Table
 
-## Foundational credibility gaps (a credibility brand can't rest on these)
+| Gap | Evidence the target demands it | What I have | Madison build that would close it | Plan |
+|---|---|---|---|---|
+| No public AI portfolio piece showing end-to-end pipeline | SWE job postings at AI-forward companies list deployed AI projects as differentiator — Northeastern co-op postings and LinkedIn SWE roles 2026 | Market Intelligence Agent V2 built in course but not fully documented as standalone portfolio piece | Extend Market Intelligence Agent V2 into a fully documented open-source repository with README, architecture diagram, live demo URL, and scale test results | Write comprehensive README, record 3-minute demo video, publish to GitHub with all documentation by July 2026 |
+| No system design portfolio evidence | Senior SWE and SDE2 roles at target companies require demonstrated system design thinking — seen in 80% of job postings reviewed | Built microservices at Infosys and URL shortener project but no written design document exists | Build a Madison recipe that generates a system design document from a project description — produces architecture diagrams, trade-off analysis, and decision log | Create system design write-up for Market Intelligence Agent covering data flow, failure modes, and scaling decisions by August 2026 |
+| No LeetCode or competitive programming signal | Technical interview processes at target companies include algorithmic coding rounds — standard for SWE roles at Amazon, Google, Microsoft | Strong backend production experience but no documented algorithmic practice | Build a Madison tool that tracks LeetCode practice — logs problems solved, patterns identified, and progress over time | Complete 50 medium LeetCode problems with documented solutions on GitHub by September 2026 |
+| Limited cloud deployment experience beyond AWS basics | DevOps and cloud-native SWE roles require hands-on Kubernetes and full CI/CD pipeline experience — seen in Commonwealth co-op posting and target company JDs | AWS EC2/S3/RDS used at Infosys, Docker used in projects, but no Kubernetes or full CI/CD pipeline ownership | Extend Market Intelligence Agent V2 deployment to include a full CI/CD pipeline using GitHub Actions — auto-deploy to cloud on every commit | Add GitHub Actions workflow to Market Intelligence Agent repository with automated testing and deployment by July 2026 |
+| No open source contributions outside coursework | SWE hiring managers at product companies value external open source contributions as proof of code quality under peer review | All projects are course assignments or employer work — no external open source contributions | Contribute to an existing Python or Java open source project — bug fix or small feature — and document the PR in resume.json | Identify one open source project to contribute to and submit first PR by August 2026 |
 
-A "tell trustworthy from fluent" brand is undermined the moment its own credentials
-are fuzzy. These are the high-severity `resume.json` issues — close them first.
+---
 
-| Gap | Source | Action |
-|---|---|---|
-| PhD described three ways (CS / Math+CS / comp-systems-bio) | resume.json issue #1 | Pick one canonical line; it appears everywhere identically. |
-| MBA unverifiable from public profile | resume.json issue #2 | Attest with the diploma, or stop claiming it. |
-| Self-employment entries carry an editorial rant + overlapping dates | resume.json issue #3 | Clean to verifiable roles + dates; the Massachusetts complaint never appears in a brand artifact. |
+## Top Gap — Project Proposal (150-200 words)
 
-## Proof gaps (make the strong signals provable)
+**Project: Market Intelligence Agent V2 — Open Source Portfolio Edition**
 
-| Gap | Why it's a gap | The build that closes it |
-|---|---|---|
-| **Tool adoption is unevidenced** | "Builds adopted open-source tools" is the lead brand attribute — but adoption isn't captured. Jobsekr's numbers already conflict (resume #7). In the LLM era a tool out-signals a paper *only if it's shown to be used*; an unused tool is as cheap a signal as an un-cited paper. | An **adoption tracker**: per tool, capture deployments, active users, repo stars/forks, real installs. Land verified numbers in `resume.json`. This is what turns "I built it" into the costly, hard-to-fake signal academics now respond to. |
-| **Reproducibility isn't yet the default** | The strongest attribute is "the paper you can run and re-parameterize," but only Tangram clearly fits. The rest are tools OR papers, not both. | Make the **paper-plus-runnable-artifact** the standard output: every claim ships with a live, parameter-adjustable explorer (notebook / D3 / dashboard). Tangram is the template — replicate it, don't leave it the exception. |
+The strongest gap between my current record and my SWE/SDE target role is 
+the absence of a fully documented, publicly presentable AI portfolio piece. 
+I have built the Market Intelligence Agent V2 as part of INFO 7375 — a 
+complete end-to-end pipeline that collects RSS news from three sources, 
+analyzes each article using Groq AI for sentiment, urgency, and sector 
+classification, routes personalized HTML reports to correct business sector 
+teams via Gmail, and exposes a Streamlit interface deployed at a public URL. 
+The tool works and is deployed. What is missing is the documentation layer 
+that turns a course project into a portfolio piece a hiring manager can 
+evaluate in five minutes.
 
-## The discipline
+The Madison build that closes this gap is a documentation recipe — a 
+structured template that generates a README, architecture diagram, scale 
+test summary, and demo walkthrough from an existing project. Running this 
+recipe on Market Intelligence Agent V2 produces a GitHub repository that 
+demonstrates end-to-end AI pipeline thinking, Python deployment skills, 
+API integration, error handling, and user-facing product design in a single 
+artifact. This is the portfolio piece that makes the AI course work legible 
+to a SWE hiring manager who has never heard of n8n or Groq.
 
-Nothing here is false — it's just **unearned**. The move is not to write it into the
-brand and hope; it's to build the thing that generates the proof, let the proof land
-in `resume.json`, and only then promote it to `brand.yml`. That is the whole point of
-a credibility play: you don't claim the standing, you ship until the record claims it
-for you.
+---
+
+## Deleted Row — with reason
+
+**Deleted gap: "No machine learning model training experience"**
+
+Reason for deletion: This gap is aspirational self-improvement, not 
+evidence-backed. None of the SWE/SDE job postings reviewed for Assignment 1 
+listed ML model training as a requirement for backend engineering roles. 
+The target role is software engineer, not ML engineer. Adding this gap 
+would blur the positioning and suggest a different career target than 
+the one stated in brand.yml. Deleted to keep the gap table honest and 
+role-specific.
+
+---
+
+## Rewritten Row — in my own words
+
+**Original agent draft for cloud gap:**
+"User lacks Kubernetes experience required for cloud-native roles"
+
+**My rewrite:**
+I have worked with Docker and AWS at Infosys and know how containerization 
+works in production. What I have not done is own a full deployment pipeline 
+end-to-end — from code commit to live environment — with automated testing 
+and rollback. The gap is not theoretical knowledge of Kubernetes but the 
+absence of a project where I made the deployment decisions myself and can 
+show the CI/CD configuration. The Madison build that closes this is adding 
+a real GitHub Actions workflow to Market Intelligence Agent V2 so the next 
+version of resume.json can say "owned CI/CD pipeline" with a commit link 
+as proof.
