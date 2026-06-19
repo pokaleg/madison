@@ -3,6 +3,33 @@
 Human-readable history for recipe-driven work. Short, concrete entries; no
 secrets, personal contact details, or private notes.
 
+## 2026-06-19 — Exercise 1: Personal Brand Layer
+
+- **What was built:**
+  - brand/resume.json — attested resume with structured records
+  - brand/brand.yml — aspiration, audience, positioning with proof pointers
+  - brand/gaps.md — gap table mapped to Madison builds
+  - brand/board-snapshot-2026-06-19.png — Figma board snapshot
+
+- **Three import errors caught and fixed:**
+  1. Graduation year confirmed Dec 2026 not 2025
+  2. Bachelor degree field corrected to Electronics and Telecommunications not CS
+  3. Infosys end date corrected to March 2024 not April 2024
+
+- **Top gap:**
+  No public AI portfolio piece with full documentation — Market Intelligence
+  Agent V2 exists and is deployed but needs README, architecture diagram,
+  and demo walkthrough to be legible to SWE hiring managers.
+
+- **Project proposal:**
+  Market Intelligence Agent V2 Open Source Portfolio Edition — extend
+  existing deployed Streamlit tool with comprehensive documentation,
+  architecture diagram, scale test results, and demo walkthrough to create
+  a standalone portfolio piece targeting SWE/SDE hiring managers at
+  AI-forward tech companies.
+
+- **Open issues:** None — all brand/ files committed to main branch.
+
 ## 2026-06-14 — Rewrote TIKTOC for Madison Recipe Engine practitioner guide
 
 - **Recipe:** manual architecture rewrite, author-directed.
