@@ -1,6 +1,5 @@
 # gaps.md — Gayatri Pokale
 # Exercise 1 — INFO 7375
-# Last updated: 2026-06-19
 # Rule: a gap closes only when evidence ships → new resume.json entry → row deleted
 
 ## How to read this file
